@@ -1,0 +1,806 @@
+[
+  {
+    "id": "006",
+    "category": "control",
+    "title": "Cyberpunk Alley",
+    "description": "Movement, camera control, and firing in a neon-lit alley.",
+    "duration": 4.85,
+    "video": "media/006.mp4",
+    "poster": "media/006.jpg",
+    "global": "A rain-soaked neon cyberpunk service alley at night, with wet asphalt reflecting cyan and magenta light, exposed pipes and vents, compact utility structures, and a distant elevated walkway. The scene has photorealistic futuristic game rendering, worn dark metal surfaces, rainy volumetric light, and a clear traversable central lane. The active weapon is a compact futuristic submachine gun. Its appearance is described as: a dark angular metal chassis, a short barrel assembly, a top rail, compact sights, and a practical two-handed grip. Its primary fire is rapid fully automatic hitscan gunfire, dealing direct bullet damage without an explosion. No opponent or other character is present in the scene.",
+    "chunks": [
+      {
+        "start": 0.05,
+        "end": 0.85,
+        "text": "No opponent appears during this block. No combat occurs during this block.",
+        "full": "A rain-soaked neon cyberpunk service alley at night, with wet asphalt reflecting cyan and magenta light, exposed pipes and vents, compact utility structures, and a distant elevated walkway. The scene has photorealistic futuristic game rendering, worn dark metal surfaces, rainy volumetric light, and a clear traversable central lane. The active weapon is a compact futuristic submachine gun. Its appearance is described as: a dark angular metal chassis, a short barrel assembly, a top rail, compact sights, and a practical two-handed grip. Its primary fire is rapid fully automatic hitscan gunfire, dealing direct bullet damage without an explosion. No opponent or other character is present in the scene. No opponent appears during this block. No combat occurs during this block."
+      },
+      {
+        "start": 0.85,
+        "end": 1.65,
+        "text": "No opponent appears during this block. No combat occurs during this block.",
+        "full": "A rain-soaked neon cyberpunk service alley at night, with wet asphalt reflecting cyan and magenta light, exposed pipes and vents, compact utility structures, and a distant elevated walkway. The scene has photorealistic futuristic game rendering, worn dark metal surfaces, rainy volumetric light, and a clear traversable central lane. The active weapon is a compact futuristic submachine gun. Its appearance is described as: a dark angular metal chassis, a short barrel assembly, a top rail, compact sights, and a practical two-handed grip. Its primary fire is rapid fully automatic hitscan gunfire, dealing direct bullet damage without an explosion. No opponent or other character is present in the scene. No opponent appears during this block. No combat occurs during this block."
+      },
+      {
+        "start": 1.65,
+        "end": 2.45,
+        "text": "No opponent appears during this block. No combat occurs during this block.",
+        "full": "A rain-soaked neon cyberpunk service alley at night, with wet asphalt reflecting cyan and magenta light, exposed pipes and vents, compact utility structures, and a distant elevated walkway. The scene has photorealistic futuristic game rendering, worn dark metal surfaces, rainy volumetric light, and a clear traversable central lane. The active weapon is a compact futuristic submachine gun. Its appearance is described as: a dark angular metal chassis, a short barrel assembly, a top rail, compact sights, and a practical two-handed grip. Its primary fire is rapid fully automatic hitscan gunfire, dealing direct bullet damage without an explosion. No opponent or other character is present in the scene. No opponent appears during this block. No combat occurs during this block."
+      },
+      {
+        "start": 2.45,
+        "end": 3.25,
+        "text": "No opponent appears during this block. No combat occurs during this block.",
+        "full": "A rain-soaked neon cyberpunk service alley at night, with wet asphalt reflecting cyan and magenta light, exposed pipes and vents, compact utility structures, and a distant elevated walkway. The scene has photorealistic futuristic game rendering, worn dark metal surfaces, rainy volumetric light, and a clear traversable central lane. The active weapon is a compact futuristic submachine gun. Its appearance is described as: a dark angular metal chassis, a short barrel assembly, a top rail, compact sights, and a practical two-handed grip. Its primary fire is rapid fully automatic hitscan gunfire, dealing direct bullet damage without an explosion. No opponent or other character is present in the scene. No opponent appears during this block. No combat occurs during this block."
+      },
+      {
+        "start": 3.25,
+        "end": 4.05,
+        "text": "No opponent appears during this block. No combat occurs during this block.",
+        "full": "A rain-soaked neon cyberpunk service alley at night, with wet asphalt reflecting cyan and magenta light, exposed pipes and vents, compact utility structures, and a distant elevated walkway. The scene has photorealistic futuristic game rendering, worn dark metal surfaces, rainy volumetric light, and a clear traversable central lane. The active weapon is a compact futuristic submachine gun. Its appearance is described as: a dark angular metal chassis, a short barrel assembly, a top rail, compact sights, and a practical two-handed grip. Its primary fire is rapid fully automatic hitscan gunfire, dealing direct bullet damage without an explosion. No opponent or other character is present in the scene. No opponent appears during this block. No combat occurs during this block."
+      },
+      {
+        "start": 4.05,
+        "end": 4.85,
+        "text": "No opponent appears during this block. No combat occurs during this block.",
+        "full": "A rain-soaked neon cyberpunk service alley at night, with wet asphalt reflecting cyan and magenta light, exposed pipes and vents, compact utility structures, and a distant elevated walkway. The scene has photorealistic futuristic game rendering, worn dark metal surfaces, rainy volumetric light, and a clear traversable central lane. The active weapon is a compact futuristic submachine gun. Its appearance is described as: a dark angular metal chassis, a short barrel assembly, a top rail, compact sights, and a practical two-handed grip. Its primary fire is rapid fully automatic hitscan gunfire, dealing direct bullet damage without an explosion. No opponent or other character is present in the scene. No opponent appears during this block. No combat occurs during this block."
+      }
+    ]
+  },
+  {
+    "id": "003",
+    "category": "control",
+    "title": "Cel Harbor",
+    "description": "Player-controlled movement through a stylized harbor.",
+    "duration": 4.05,
+    "video": "media/003.mp4",
+    "poster": "media/003.jpg",
+    "global": "A bright stylized coastal cargo harbor with turquoise water, painted shipping containers, wooden piers, cranes, and rounded seaside buildings. Clean outlines, controlled saturated colors, worn painted surfaces, and clear traversal lanes create a premium cel-shaded arena. The player is unarmed in a first-person exploration view. No weapon, hands, arms, crosshair, or HUD are visible. No opponent or other character is present in the scene.",
+    "chunks": [
+      {
+        "start": 0.05,
+        "end": 0.85,
+        "text": "No opponent appears during this block. No combat occurs.",
+        "full": "A bright stylized coastal cargo harbor with turquoise water, painted shipping containers, wooden piers, cranes, and rounded seaside buildings. Clean outlines, controlled saturated colors, worn painted surfaces, and clear traversal lanes create a premium cel-shaded arena. The player is unarmed in a first-person exploration view. No weapon, hands, arms, crosshair, or HUD are visible. No opponent or other character is present in the scene. No opponent appears during this block. No combat occurs."
+      },
+      {
+        "start": 0.85,
+        "end": 1.65,
+        "text": "No opponent appears during this block. No combat occurs.",
+        "full": "A bright stylized coastal cargo harbor with turquoise water, painted shipping containers, wooden piers, cranes, and rounded seaside buildings. Clean outlines, controlled saturated colors, worn painted surfaces, and clear traversal lanes create a premium cel-shaded arena. The player is unarmed in a first-person exploration view. No weapon, hands, arms, crosshair, or HUD are visible. No opponent or other character is present in the scene. No opponent appears during this block. No combat occurs."
+      },
+      {
+        "start": 1.65,
+        "end": 2.45,
+        "text": "No opponent appears during this block. No combat occurs.",
+        "full": "A bright stylized coastal cargo harbor with turquoise water, painted shipping containers, wooden piers, cranes, and rounded seaside buildings. Clean outlines, controlled saturated colors, worn painted surfaces, and clear traversal lanes create a premium cel-shaded arena. The player is unarmed in a first-person exploration view. No weapon, hands, arms, crosshair, or HUD are visible. No opponent or other character is present in the scene. No opponent appears during this block. No combat occurs."
+      },
+      {
+        "start": 2.45,
+        "end": 3.25,
+        "text": "No opponent appears during this block. No combat occurs.",
+        "full": "A bright stylized coastal cargo harbor with turquoise water, painted shipping containers, wooden piers, cranes, and rounded seaside buildings. Clean outlines, controlled saturated colors, worn painted surfaces, and clear traversal lanes create a premium cel-shaded arena. The player is unarmed in a first-person exploration view. No weapon, hands, arms, crosshair, or HUD are visible. No opponent or other character is present in the scene. No opponent appears during this block. No combat occurs."
+      },
+      {
+        "start": 3.25,
+        "end": 4.05,
+        "text": "No opponent appears during this block. No combat occurs.",
+        "full": "A bright stylized coastal cargo harbor with turquoise water, painted shipping containers, wooden piers, cranes, and rounded seaside buildings. Clean outlines, controlled saturated colors, worn painted surfaces, and clear traversal lanes create a premium cel-shaded arena. The player is unarmed in a first-person exploration view. No weapon, hands, arms, crosshair, or HUD are visible. No opponent or other character is present in the scene. No opponent appears during this block. No combat occurs."
+      }
+    ]
+  },
+  {
+    "id": "008",
+    "category": "scenes",
+    "title": "Desert Ruins",
+    "description": "Combat interaction with a different scene, weapon, and opponent.",
+    "duration": 4.85,
+    "video": "media/008.mp4",
+    "poster": "media/008.jpg",
+    "global": "Sunlit desert canyon ruins made from wind-carved sandstone, broken arches, dry grass, scattered ancient masonry, and a wide sandy path. Warm late-afternoon sunlight and weathered stone textures create a cinematic realistic adventure-shooter arena. The active weapon is a heavy revolver-style hand cannon. Its appearance is described as: a large bronze-dark metal frame, an oversized cylinder and barrel, iron sights, and a single gloved firing hand. Its primary fire is semi-automatic hitscan gunfire, dealing high direct bullet damage without an explosion. The tracked enemy is a bronze insectoid combat robot with a humanoid stance, angular mantis-like helmet shapes, polished segmented armor, long mechanical limbs, and a narrow waist.",
+    "chunks": [
+      {
+        "start": 0.05,
+        "end": 0.85,
+        "text": "The opponent moves toward the player's left while approaching. There is only this one opponent in the entire scene. No additional opponent enters.",
+        "full": "Sunlit desert canyon ruins made from wind-carved sandstone, broken arches, dry grass, scattered ancient masonry, and a wide sandy path. Warm late-afternoon sunlight and weathered stone textures create a cinematic realistic adventure-shooter arena. The active weapon is a heavy revolver-style hand cannon. Its appearance is described as: a large bronze-dark metal frame, an oversized cylinder and barrel, iron sights, and a single gloved firing hand. Its primary fire is semi-automatic hitscan gunfire, dealing high direct bullet damage without an explosion. The tracked enemy is a bronze insectoid combat robot with a humanoid stance, angular mantis-like helmet shapes, polished segmented armor, long mechanical limbs, and a narrow waist. The opponent moves toward the player's left while approaching. There is only this one opponent in the entire scene. No additional opponent enters."
+      },
+      {
+        "start": 0.85,
+        "end": 1.65,
+        "text": "The opponent moves toward the player's left while approaching. There is only this one opponent in the entire scene. No additional opponent enters.",
+        "full": "Sunlit desert canyon ruins made from wind-carved sandstone, broken arches, dry grass, scattered ancient masonry, and a wide sandy path. Warm late-afternoon sunlight and weathered stone textures create a cinematic realistic adventure-shooter arena. The active weapon is a heavy revolver-style hand cannon. Its appearance is described as: a large bronze-dark metal frame, an oversized cylinder and barrel, iron sights, and a single gloved firing hand. Its primary fire is semi-automatic hitscan gunfire, dealing high direct bullet damage without an explosion. The tracked enemy is a bronze insectoid combat robot with a humanoid stance, angular mantis-like helmet shapes, polished segmented armor, long mechanical limbs, and a narrow waist. The opponent moves toward the player's left while approaching. There is only this one opponent in the entire scene. No additional opponent enters."
+      },
+      {
+        "start": 1.65,
+        "end": 2.45,
+        "text": "The opponent moves toward the player's left while approaching. There is only this one opponent in the entire scene. No additional opponent enters.",
+        "full": "Sunlit desert canyon ruins made from wind-carved sandstone, broken arches, dry grass, scattered ancient masonry, and a wide sandy path. Warm late-afternoon sunlight and weathered stone textures create a cinematic realistic adventure-shooter arena. The active weapon is a heavy revolver-style hand cannon. Its appearance is described as: a large bronze-dark metal frame, an oversized cylinder and barrel, iron sights, and a single gloved firing hand. Its primary fire is semi-automatic hitscan gunfire, dealing high direct bullet damage without an explosion. The tracked enemy is a bronze insectoid combat robot with a humanoid stance, angular mantis-like helmet shapes, polished segmented armor, long mechanical limbs, and a narrow waist. The opponent moves toward the player's left while approaching. There is only this one opponent in the entire scene. No additional opponent enters."
+      },
+      {
+        "start": 2.45,
+        "end": 3.25,
+        "text": "The opponent moves toward the player's right. There is only this one opponent in the entire scene. No additional opponent enters.",
+        "full": "Sunlit desert canyon ruins made from wind-carved sandstone, broken arches, dry grass, scattered ancient masonry, and a wide sandy path. Warm late-afternoon sunlight and weathered stone textures create a cinematic realistic adventure-shooter arena. The active weapon is a heavy revolver-style hand cannon. Its appearance is described as: a large bronze-dark metal frame, an oversized cylinder and barrel, iron sights, and a single gloved firing hand. Its primary fire is semi-automatic hitscan gunfire, dealing high direct bullet damage without an explosion. The tracked enemy is a bronze insectoid combat robot with a humanoid stance, angular mantis-like helmet shapes, polished segmented armor, long mechanical limbs, and a narrow waist. The opponent moves toward the player's right. There is only this one opponent in the entire scene. No additional opponent enters."
+      },
+      {
+        "start": 3.25,
+        "end": 4.05,
+        "text": "The opponent moves toward the player's right. There is only this one opponent in the entire scene. No additional opponent enters.",
+        "full": "Sunlit desert canyon ruins made from wind-carved sandstone, broken arches, dry grass, scattered ancient masonry, and a wide sandy path. Warm late-afternoon sunlight and weathered stone textures create a cinematic realistic adventure-shooter arena. The active weapon is a heavy revolver-style hand cannon. Its appearance is described as: a large bronze-dark metal frame, an oversized cylinder and barrel, iron sights, and a single gloved firing hand. Its primary fire is semi-automatic hitscan gunfire, dealing high direct bullet damage without an explosion. The tracked enemy is a bronze insectoid combat robot with a humanoid stance, angular mantis-like helmet shapes, polished segmented armor, long mechanical limbs, and a narrow waist. The opponent moves toward the player's right. There is only this one opponent in the entire scene. No additional opponent enters."
+      },
+      {
+        "start": 4.05,
+        "end": 4.85,
+        "text": "The opponent moves toward the player's right. There is only this one opponent in the entire scene. No additional opponent enters.",
+        "full": "Sunlit desert canyon ruins made from wind-carved sandstone, broken arches, dry grass, scattered ancient masonry, and a wide sandy path. Warm late-afternoon sunlight and weathered stone textures create a cinematic realistic adventure-shooter arena. The active weapon is a heavy revolver-style hand cannon. Its appearance is described as: a large bronze-dark metal frame, an oversized cylinder and barrel, iron sights, and a single gloved firing hand. Its primary fire is semi-automatic hitscan gunfire, dealing high direct bullet damage without an explosion. The tracked enemy is a bronze insectoid combat robot with a humanoid stance, angular mantis-like helmet shapes, polished segmented armor, long mechanical limbs, and a narrow waist. The opponent moves toward the player's right. There is only this one opponent in the entire scene. No additional opponent enters."
+      }
+    ]
+  },
+  {
+    "id": "004",
+    "category": "scenes",
+    "title": "Molten Foundry",
+    "description": "An industrial encounter with a security mech.",
+    "duration": 4.85,
+    "video": "media/004.mp4",
+    "poster": "media/004.jpg",
+    "global": "An immense molten metal foundry containing steel catwalks, brick furnaces, orange glowing channels, cranes, pipes, and heavy machinery. Dramatic furnace light reflects from gritty metal and concrete surfaces across an open industrial combat floor. The active weapon is a dark rotary machine gun. Its appearance is described as: a cluster of heavy black barrels, a reinforced rectangular receiver, rugged grips, and substantial two-handed first-person weight. Its primary fire is fully automatic hitscan gunfire, dealing direct bullet damage without an explosion. The tracked enemy is a bulky yellow-and-black industrial security mech with an armored humanoid silhouette, massive squared shoulders, thick mechanical legs, and a small dark sensor head.",
+    "chunks": [
+      {
+        "start": 0.05,
+        "end": 0.85,
+        "text": "The opponent moves toward the player's left while approaching. There is only this one opponent in the entire scene. No additional opponent enters.",
+        "full": "An immense molten metal foundry containing steel catwalks, brick furnaces, orange glowing channels, cranes, pipes, and heavy machinery. Dramatic furnace light reflects from gritty metal and concrete surfaces across an open industrial combat floor. The active weapon is a dark rotary machine gun. Its appearance is described as: a cluster of heavy black barrels, a reinforced rectangular receiver, rugged grips, and substantial two-handed first-person weight. Its primary fire is fully automatic hitscan gunfire, dealing direct bullet damage without an explosion. The tracked enemy is a bulky yellow-and-black industrial security mech with an armored humanoid silhouette, massive squared shoulders, thick mechanical legs, and a small dark sensor head. The opponent moves toward the player's left while approaching. There is only this one opponent in the entire scene. No additional opponent enters."
+      },
+      {
+        "start": 0.85,
+        "end": 1.65,
+        "text": "The opponent moves toward the player's left while approaching. The opponent is hit and remains alive. There is only this one opponent in the entire scene. No additional opponent enters.",
+        "full": "An immense molten metal foundry containing steel catwalks, brick furnaces, orange glowing channels, cranes, pipes, and heavy machinery. Dramatic furnace light reflects from gritty metal and concrete surfaces across an open industrial combat floor. The active weapon is a dark rotary machine gun. Its appearance is described as: a cluster of heavy black barrels, a reinforced rectangular receiver, rugged grips, and substantial two-handed first-person weight. Its primary fire is fully automatic hitscan gunfire, dealing direct bullet damage without an explosion. The tracked enemy is a bulky yellow-and-black industrial security mech with an armored humanoid silhouette, massive squared shoulders, thick mechanical legs, and a small dark sensor head. The opponent moves toward the player's left while approaching. The opponent is hit and remains alive. There is only this one opponent in the entire scene. No additional opponent enters."
+      },
+      {
+        "start": 1.65,
+        "end": 2.45,
+        "text": "The opponent moves toward the player's left while approaching. The opponent is killed while still moving during this block, falls, and remains dead through the end of the block. There is only this one opponent in the entire scene. No additional opponent enters. The defeated opponent stays down and does not get up or reappear.",
+        "full": "An immense molten metal foundry containing steel catwalks, brick furnaces, orange glowing channels, cranes, pipes, and heavy machinery. Dramatic furnace light reflects from gritty metal and concrete surfaces across an open industrial combat floor. The active weapon is a dark rotary machine gun. Its appearance is described as: a cluster of heavy black barrels, a reinforced rectangular receiver, rugged grips, and substantial two-handed first-person weight. Its primary fire is fully automatic hitscan gunfire, dealing direct bullet damage without an explosion. The tracked enemy is a bulky yellow-and-black industrial security mech with an armored humanoid silhouette, massive squared shoulders, thick mechanical legs, and a small dark sensor head. The opponent moves toward the player's left while approaching. The opponent is killed while still moving during this block, falls, and remains dead through the end of the block. There is only this one opponent in the entire scene. No additional opponent enters. The defeated opponent stays down and does not get up or reappear."
+      },
+      {
+        "start": 2.45,
+        "end": 3.25,
+        "text": "The same opponent is already dead at the start of this block and is lying on the ground. The opponent remains lying still in the same position throughout the block. There is only this one opponent in the entire scene. No additional opponent enters. The defeated opponent stays down and does not get up or reappear.",
+        "full": "An immense molten metal foundry containing steel catwalks, brick furnaces, orange glowing channels, cranes, pipes, and heavy machinery. Dramatic furnace light reflects from gritty metal and concrete surfaces across an open industrial combat floor. The active weapon is a dark rotary machine gun. Its appearance is described as: a cluster of heavy black barrels, a reinforced rectangular receiver, rugged grips, and substantial two-handed first-person weight. Its primary fire is fully automatic hitscan gunfire, dealing direct bullet damage without an explosion. The tracked enemy is a bulky yellow-and-black industrial security mech with an armored humanoid silhouette, massive squared shoulders, thick mechanical legs, and a small dark sensor head. The same opponent is already dead at the start of this block and is lying on the ground. The opponent remains lying still in the same position throughout the block. There is only this one opponent in the entire scene. No additional opponent enters. The defeated opponent stays down and does not get up or reappear."
+      },
+      {
+        "start": 3.25,
+        "end": 4.05,
+        "text": "The same opponent is already dead at the start of this block and is lying on the ground. The opponent remains lying still in the same position throughout the block. There is only this one opponent in the entire scene. No additional opponent enters. The defeated opponent stays down and does not get up or reappear.",
+        "full": "An immense molten metal foundry containing steel catwalks, brick furnaces, orange glowing channels, cranes, pipes, and heavy machinery. Dramatic furnace light reflects from gritty metal and concrete surfaces across an open industrial combat floor. The active weapon is a dark rotary machine gun. Its appearance is described as: a cluster of heavy black barrels, a reinforced rectangular receiver, rugged grips, and substantial two-handed first-person weight. Its primary fire is fully automatic hitscan gunfire, dealing direct bullet damage without an explosion. The tracked enemy is a bulky yellow-and-black industrial security mech with an armored humanoid silhouette, massive squared shoulders, thick mechanical legs, and a small dark sensor head. The same opponent is already dead at the start of this block and is lying on the ground. The opponent remains lying still in the same position throughout the block. There is only this one opponent in the entire scene. No additional opponent enters. The defeated opponent stays down and does not get up or reappear."
+      },
+      {
+        "start": 4.05,
+        "end": 4.85,
+        "text": "The same opponent is already dead at the start of this block and is lying on the ground. The opponent remains lying still in the same position throughout the block. There is only this one opponent in the entire scene. No additional opponent enters. The defeated opponent stays down and does not get up or reappear.",
+        "full": "An immense molten metal foundry containing steel catwalks, brick furnaces, orange glowing channels, cranes, pipes, and heavy machinery. Dramatic furnace light reflects from gritty metal and concrete surfaces across an open industrial combat floor. The active weapon is a dark rotary machine gun. Its appearance is described as: a cluster of heavy black barrels, a reinforced rectangular receiver, rugged grips, and substantial two-handed first-person weight. Its primary fire is fully automatic hitscan gunfire, dealing direct bullet damage without an explosion. The tracked enemy is a bulky yellow-and-black industrial security mech with an armored humanoid silhouette, massive squared shoulders, thick mechanical legs, and a small dark sensor head. The same opponent is already dead at the start of this block and is lying on the ground. The opponent remains lying still in the same position throughout the block. There is only this one opponent in the entire scene. No additional opponent enters. The defeated opponent stays down and does not get up or reappear."
+      }
+    ]
+  },
+  {
+    "id": "002",
+    "category": "behavior",
+    "title": "Closing the Distance",
+    "description": "An opponent advances toward the player.",
+    "duration": 4.85,
+    "video": "media/002.mp4",
+    "poster": "media/002.jpg",
+    "global": "An outdoor alpine research station during light snowfall, surrounded by blue-white mountains, concrete landing pads, antennas, snowbanks, weathered modular buildings, and yellow safety rails. Cold natural daylight gives the realistic military game scene crisp visibility and long soft shadows. The active weapon is a scoped assault rifle. Its appearance is described as: a matte dark receiver, a large tubular optic, a ventilated handguard, a long barrel, and a stable two-handed grip. Its primary fire is rapid automatic hitscan gunfire, dealing direct bullet damage without an explosion. The tracked enemy is a human mercenary wearing white-and-charcoal full-body winter combat armor, a smooth enclosed helmet, black undersuit panels, and heavy insulated boots.",
+    "chunks": [
+      {
+        "start": 0.05,
+        "end": 0.85,
+        "text": "The opponent remains visible and stationary. The opponent remains alive. There is only one opponent.",
+        "full": "An outdoor alpine research station during light snowfall, surrounded by blue-white mountains, concrete landing pads, antennas, snowbanks, weathered modular buildings, and yellow safety rails. Cold natural daylight gives the realistic military game scene crisp visibility and long soft shadows. The active weapon is a scoped assault rifle. Its appearance is described as: a matte dark receiver, a large tubular optic, a ventilated handguard, a long barrel, and a stable two-handed grip. Its primary fire is rapid automatic hitscan gunfire, dealing direct bullet damage without an explosion. The tracked enemy is a human mercenary wearing white-and-charcoal full-body winter combat armor, a smooth enclosed helmet, black undersuit panels, and heavy insulated boots. The opponent remains visible and stationary. The opponent remains alive. There is only one opponent."
+      },
+      {
+        "start": 0.85,
+        "end": 1.65,
+        "text": "The opponent walks forward toward the player. The opponent remains alive. There is only one opponent.",
+        "full": "An outdoor alpine research station during light snowfall, surrounded by blue-white mountains, concrete landing pads, antennas, snowbanks, weathered modular buildings, and yellow safety rails. Cold natural daylight gives the realistic military game scene crisp visibility and long soft shadows. The active weapon is a scoped assault rifle. Its appearance is described as: a matte dark receiver, a large tubular optic, a ventilated handguard, a long barrel, and a stable two-handed grip. Its primary fire is rapid automatic hitscan gunfire, dealing direct bullet damage without an explosion. The tracked enemy is a human mercenary wearing white-and-charcoal full-body winter combat armor, a smooth enclosed helmet, black undersuit panels, and heavy insulated boots. The opponent walks forward toward the player. The opponent remains alive. There is only one opponent."
+      },
+      {
+        "start": 1.65,
+        "end": 2.45,
+        "text": "The opponent continues walking toward the player, becoming visibly closer. The opponent remains alive. There is only one opponent.",
+        "full": "An outdoor alpine research station during light snowfall, surrounded by blue-white mountains, concrete landing pads, antennas, snowbanks, weathered modular buildings, and yellow safety rails. Cold natural daylight gives the realistic military game scene crisp visibility and long soft shadows. The active weapon is a scoped assault rifle. Its appearance is described as: a matte dark receiver, a large tubular optic, a ventilated handguard, a long barrel, and a stable two-handed grip. Its primary fire is rapid automatic hitscan gunfire, dealing direct bullet damage without an explosion. The tracked enemy is a human mercenary wearing white-and-charcoal full-body winter combat armor, a smooth enclosed helmet, black undersuit panels, and heavy insulated boots. The opponent continues walking toward the player, becoming visibly closer. The opponent remains alive. There is only one opponent."
+      },
+      {
+        "start": 2.45,
+        "end": 3.25,
+        "text": "The opponent walks forward toward the player. The opponent remains alive. There is only one opponent.",
+        "full": "An outdoor alpine research station during light snowfall, surrounded by blue-white mountains, concrete landing pads, antennas, snowbanks, weathered modular buildings, and yellow safety rails. Cold natural daylight gives the realistic military game scene crisp visibility and long soft shadows. The active weapon is a scoped assault rifle. Its appearance is described as: a matte dark receiver, a large tubular optic, a ventilated handguard, a long barrel, and a stable two-handed grip. Its primary fire is rapid automatic hitscan gunfire, dealing direct bullet damage without an explosion. The tracked enemy is a human mercenary wearing white-and-charcoal full-body winter combat armor, a smooth enclosed helmet, black undersuit panels, and heavy insulated boots. The opponent walks forward toward the player. The opponent remains alive. There is only one opponent."
+      },
+      {
+        "start": 3.25,
+        "end": 4.05,
+        "text": "The opponent stops at close range, facing the player. The opponent remains alive. There is only one opponent.",
+        "full": "An outdoor alpine research station during light snowfall, surrounded by blue-white mountains, concrete landing pads, antennas, snowbanks, weathered modular buildings, and yellow safety rails. Cold natural daylight gives the realistic military game scene crisp visibility and long soft shadows. The active weapon is a scoped assault rifle. Its appearance is described as: a matte dark receiver, a large tubular optic, a ventilated handguard, a long barrel, and a stable two-handed grip. Its primary fire is rapid automatic hitscan gunfire, dealing direct bullet damage without an explosion. The tracked enemy is a human mercenary wearing white-and-charcoal full-body winter combat armor, a smooth enclosed helmet, black undersuit panels, and heavy insulated boots. The opponent stops at close range, facing the player. The opponent remains alive. There is only one opponent."
+      },
+      {
+        "start": 4.05,
+        "end": 4.85,
+        "text": "The opponent remains visible and stationary. The opponent remains alive. There is only one opponent.",
+        "full": "An outdoor alpine research station during light snowfall, surrounded by blue-white mountains, concrete landing pads, antennas, snowbanks, weathered modular buildings, and yellow safety rails. Cold natural daylight gives the realistic military game scene crisp visibility and long soft shadows. The active weapon is a scoped assault rifle. Its appearance is described as: a matte dark receiver, a large tubular optic, a ventilated handguard, a long barrel, and a stable two-handed grip. Its primary fire is rapid automatic hitscan gunfire, dealing direct bullet damage without an explosion. The tracked enemy is a human mercenary wearing white-and-charcoal full-body winter combat armor, a smooth enclosed helmet, black undersuit panels, and heavy insulated boots. The opponent remains visible and stationary. The opponent remains alive. There is only one opponent."
+      }
+    ]
+  },
+  {
+    "id": "010",
+    "category": "behavior",
+    "title": "Moving Away",
+    "description": "An opponent moves away through the desert environment.",
+    "duration": 4.85,
+    "video": "media/010.mp4",
+    "poster": "media/010.jpg",
+    "global": "Sunlit desert canyon ruins made from wind-carved sandstone, broken arches, dry grass, scattered ancient masonry, and a wide sandy path. Warm late-afternoon sunlight and weathered stone textures create a cinematic realistic adventure-shooter arena. The active weapon is a heavy revolver-style hand cannon. Its appearance is described as: a large bronze-dark metal frame, an oversized cylinder and barrel, iron sights, and a single gloved firing hand. Its primary fire is semi-automatic hitscan gunfire, dealing high direct bullet damage without an explosion. The tracked enemy is a bronze insectoid combat robot with a humanoid stance, angular mantis-like helmet shapes, polished segmented armor, long mechanical limbs, and a narrow waist.",
+    "chunks": [
+      {
+        "start": 0.05,
+        "end": 0.85,
+        "text": "The opponent remains visible and stationary. The opponent remains alive. There is only one opponent.",
+        "full": "Sunlit desert canyon ruins made from wind-carved sandstone, broken arches, dry grass, scattered ancient masonry, and a wide sandy path. Warm late-afternoon sunlight and weathered stone textures create a cinematic realistic adventure-shooter arena. The active weapon is a heavy revolver-style hand cannon. Its appearance is described as: a large bronze-dark metal frame, an oversized cylinder and barrel, iron sights, and a single gloved firing hand. Its primary fire is semi-automatic hitscan gunfire, dealing high direct bullet damage without an explosion. The tracked enemy is a bronze insectoid combat robot with a humanoid stance, angular mantis-like helmet shapes, polished segmented armor, long mechanical limbs, and a narrow waist. The opponent remains visible and stationary. The opponent remains alive. There is only one opponent."
+      },
+      {
+        "start": 0.85,
+        "end": 1.65,
+        "text": "The opponent walks backward away from the player. The opponent remains alive. There is only one opponent.",
+        "full": "Sunlit desert canyon ruins made from wind-carved sandstone, broken arches, dry grass, scattered ancient masonry, and a wide sandy path. Warm late-afternoon sunlight and weathered stone textures create a cinematic realistic adventure-shooter arena. The active weapon is a heavy revolver-style hand cannon. Its appearance is described as: a large bronze-dark metal frame, an oversized cylinder and barrel, iron sights, and a single gloved firing hand. Its primary fire is semi-automatic hitscan gunfire, dealing high direct bullet damage without an explosion. The tracked enemy is a bronze insectoid combat robot with a humanoid stance, angular mantis-like helmet shapes, polished segmented armor, long mechanical limbs, and a narrow waist. The opponent walks backward away from the player. The opponent remains alive. There is only one opponent."
+      },
+      {
+        "start": 1.65,
+        "end": 2.45,
+        "text": "The opponent continues backward, becoming farther away. The opponent remains alive. There is only one opponent.",
+        "full": "Sunlit desert canyon ruins made from wind-carved sandstone, broken arches, dry grass, scattered ancient masonry, and a wide sandy path. Warm late-afternoon sunlight and weathered stone textures create a cinematic realistic adventure-shooter arena. The active weapon is a heavy revolver-style hand cannon. Its appearance is described as: a large bronze-dark metal frame, an oversized cylinder and barrel, iron sights, and a single gloved firing hand. Its primary fire is semi-automatic hitscan gunfire, dealing high direct bullet damage without an explosion. The tracked enemy is a bronze insectoid combat robot with a humanoid stance, angular mantis-like helmet shapes, polished segmented armor, long mechanical limbs, and a narrow waist. The opponent continues backward, becoming farther away. The opponent remains alive. There is only one opponent."
+      },
+      {
+        "start": 2.45,
+        "end": 3.25,
+        "text": "The opponent walks toward the player's right while retreating. The opponent remains alive. There is only one opponent.",
+        "full": "Sunlit desert canyon ruins made from wind-carved sandstone, broken arches, dry grass, scattered ancient masonry, and a wide sandy path. Warm late-afternoon sunlight and weathered stone textures create a cinematic realistic adventure-shooter arena. The active weapon is a heavy revolver-style hand cannon. Its appearance is described as: a large bronze-dark metal frame, an oversized cylinder and barrel, iron sights, and a single gloved firing hand. Its primary fire is semi-automatic hitscan gunfire, dealing high direct bullet damage without an explosion. The tracked enemy is a bronze insectoid combat robot with a humanoid stance, angular mantis-like helmet shapes, polished segmented armor, long mechanical limbs, and a narrow waist. The opponent walks toward the player's right while retreating. The opponent remains alive. There is only one opponent."
+      },
+      {
+        "start": 3.25,
+        "end": 4.05,
+        "text": "The opponent stops farther away, still visible. The opponent remains alive. There is only one opponent.",
+        "full": "Sunlit desert canyon ruins made from wind-carved sandstone, broken arches, dry grass, scattered ancient masonry, and a wide sandy path. Warm late-afternoon sunlight and weathered stone textures create a cinematic realistic adventure-shooter arena. The active weapon is a heavy revolver-style hand cannon. Its appearance is described as: a large bronze-dark metal frame, an oversized cylinder and barrel, iron sights, and a single gloved firing hand. Its primary fire is semi-automatic hitscan gunfire, dealing high direct bullet damage without an explosion. The tracked enemy is a bronze insectoid combat robot with a humanoid stance, angular mantis-like helmet shapes, polished segmented armor, long mechanical limbs, and a narrow waist. The opponent stops farther away, still visible. The opponent remains alive. There is only one opponent."
+      },
+      {
+        "start": 4.05,
+        "end": 4.85,
+        "text": "The opponent remains visible and stationary. The opponent remains alive. There is only one opponent.",
+        "full": "Sunlit desert canyon ruins made from wind-carved sandstone, broken arches, dry grass, scattered ancient masonry, and a wide sandy path. Warm late-afternoon sunlight and weathered stone textures create a cinematic realistic adventure-shooter arena. The active weapon is a heavy revolver-style hand cannon. Its appearance is described as: a large bronze-dark metal frame, an oversized cylinder and barrel, iron sights, and a single gloved firing hand. Its primary fire is semi-automatic hitscan gunfire, dealing high direct bullet damage without an explosion. The tracked enemy is a bronze insectoid combat robot with a humanoid stance, angular mantis-like helmet shapes, polished segmented armor, long mechanical limbs, and a narrow waist. The opponent remains visible and stationary. The opponent remains alive. There is only one opponent."
+      }
+    ]
+  },
+  {
+    "id": "009",
+    "category": "state",
+    "title": "Two Shots, Different Outcomes",
+    "description": "Successive attacks produce state-dependent combat responses.",
+    "duration": 4.85,
+    "video": "media/009.mp4",
+    "poster": "media/009.jpg",
+    "global": "An outdoor alpine research station during light snowfall, surrounded by blue-white mountains, concrete landing pads, antennas, snowbanks, weathered modular buildings, and yellow safety rails. Cold natural daylight gives the realistic military game scene crisp visibility and long soft shadows. The active weapon is a scoped assault rifle. Its appearance is described as: a matte dark receiver, a large tubular optic, a ventilated handguard, a long barrel, and a stable two-handed grip. Its primary fire is rapid automatic hitscan gunfire, dealing direct bullet damage without an explosion. The active opponent has the appearance shown in the current reference image.",
+    "chunks": [
+      {
+        "start": 0.05,
+        "end": 0.85,
+        "text": "The opponent remains visible and stationary. The opponent is not damaged during this block. There is only this one opponent in the entire scene. No additional opponent enters.",
+        "full": "An outdoor alpine research station during light snowfall, surrounded by blue-white mountains, concrete landing pads, antennas, snowbanks, weathered modular buildings, and yellow safety rails. Cold natural daylight gives the realistic military game scene crisp visibility and long soft shadows. The active weapon is a scoped assault rifle. Its appearance is described as: a matte dark receiver, a large tubular optic, a ventilated handguard, a long barrel, and a stable two-handed grip. Its primary fire is rapid automatic hitscan gunfire, dealing direct bullet damage without an explosion. The active opponent has the appearance shown in the current reference image. The opponent remains visible and stationary. The opponent is not damaged during this block. There is only this one opponent in the entire scene. No additional opponent enters."
+      },
+      {
+        "start": 0.85,
+        "end": 1.65,
+        "text": "The opponent remains visible and stationary. The opponent is not damaged during this block. There is only this one opponent in the entire scene. No additional opponent enters.",
+        "full": "An outdoor alpine research station during light snowfall, surrounded by blue-white mountains, concrete landing pads, antennas, snowbanks, weathered modular buildings, and yellow safety rails. Cold natural daylight gives the realistic military game scene crisp visibility and long soft shadows. The active weapon is a scoped assault rifle. Its appearance is described as: a matte dark receiver, a large tubular optic, a ventilated handguard, a long barrel, and a stable two-handed grip. Its primary fire is rapid automatic hitscan gunfire, dealing direct bullet damage without an explosion. The active opponent has the appearance shown in the current reference image. The opponent remains visible and stationary. The opponent is not damaged during this block. There is only this one opponent in the entire scene. No additional opponent enters."
+      },
+      {
+        "start": 1.65,
+        "end": 2.45,
+        "text": "The opponent is hit, reacts to the impact, and remains alive and standing. There is only this one opponent in the entire scene. No additional opponent enters.",
+        "full": "An outdoor alpine research station during light snowfall, surrounded by blue-white mountains, concrete landing pads, antennas, snowbanks, weathered modular buildings, and yellow safety rails. Cold natural daylight gives the realistic military game scene crisp visibility and long soft shadows. The active weapon is a scoped assault rifle. Its appearance is described as: a matte dark receiver, a large tubular optic, a ventilated handguard, a long barrel, and a stable two-handed grip. Its primary fire is rapid automatic hitscan gunfire, dealing direct bullet damage without an explosion. The active opponent has the appearance shown in the current reference image. The opponent is hit, reacts to the impact, and remains alive and standing. There is only this one opponent in the entire scene. No additional opponent enters."
+      },
+      {
+        "start": 2.45,
+        "end": 3.25,
+        "text": "The opponent remains visible and stationary. The opponent is not damaged during this block. There is only this one opponent in the entire scene. No additional opponent enters.",
+        "full": "An outdoor alpine research station during light snowfall, surrounded by blue-white mountains, concrete landing pads, antennas, snowbanks, weathered modular buildings, and yellow safety rails. Cold natural daylight gives the realistic military game scene crisp visibility and long soft shadows. The active weapon is a scoped assault rifle. Its appearance is described as: a matte dark receiver, a large tubular optic, a ventilated handguard, a long barrel, and a stable two-handed grip. Its primary fire is rapid automatic hitscan gunfire, dealing direct bullet damage without an explosion. The active opponent has the appearance shown in the current reference image. The opponent remains visible and stationary. The opponent is not damaged during this block. There is only this one opponent in the entire scene. No additional opponent enters."
+      },
+      {
+        "start": 3.25,
+        "end": 4.05,
+        "text": "The opponent is killed during this block, falls to the ground, and remains dead through the end of the block. There is only this one opponent in the entire scene. No additional opponent enters.",
+        "full": "An outdoor alpine research station during light snowfall, surrounded by blue-white mountains, concrete landing pads, antennas, snowbanks, weathered modular buildings, and yellow safety rails. Cold natural daylight gives the realistic military game scene crisp visibility and long soft shadows. The active weapon is a scoped assault rifle. Its appearance is described as: a matte dark receiver, a large tubular optic, a ventilated handguard, a long barrel, and a stable two-handed grip. Its primary fire is rapid automatic hitscan gunfire, dealing direct bullet damage without an explosion. The active opponent has the appearance shown in the current reference image. The opponent is killed during this block, falls to the ground, and remains dead through the end of the block. There is only this one opponent in the entire scene. No additional opponent enters."
+      },
+      {
+        "start": 4.05,
+        "end": 4.85,
+        "text": "The same opponent is already dead at the start of this block and is lying on the ground. The opponent remains lying still in the same position throughout the block. There is only this one opponent in the entire scene. No additional opponent enters.",
+        "full": "An outdoor alpine research station during light snowfall, surrounded by blue-white mountains, concrete landing pads, antennas, snowbanks, weathered modular buildings, and yellow safety rails. Cold natural daylight gives the realistic military game scene crisp visibility and long soft shadows. The active weapon is a scoped assault rifle. Its appearance is described as: a matte dark receiver, a large tubular optic, a ventilated handguard, a long barrel, and a stable two-handed grip. Its primary fire is rapid automatic hitscan gunfire, dealing direct bullet damage without an explosion. The active opponent has the appearance shown in the current reference image. The same opponent is already dead at the start of this block and is lying on the ground. The opponent remains lying still in the same position throughout the block. There is only this one opponent in the entire scene. No additional opponent enters."
+      }
+    ]
+  },
+  {
+    "id": "005",
+    "category": "state",
+    "title": "When Ammunition Runs Out",
+    "description": "Available ammunition changes the outcome of player fire inputs.",
+    "duration": 4.85,
+    "video": "media/005.mp4",
+    "poster": "media/005.jpg",
+    "global": "A minimalist futuristic laboratory courtyard with white ceramic walls, broad windows and a clear blue sky. A wide flat matte pale-gray floor. A low opaque dark rectangular cargo crate stands in the central midground. The crate is solid and opaque, with open ground beside and behind it. The player holds a compact black rifle in two gloved hands. Its primary fire is direct hitscan without explosions. The tracked opponent is a single helmeted person wearing a red jacket, dark trousers and black boots.",
+    "chunks": [
+      {
+        "start": 0.05,
+        "end": 0.85,
+        "text": "The opponent remains visible and stationary, facing the player. There is only this one opponent in the entire scene. No additional opponent enters.",
+        "full": "A minimalist futuristic laboratory courtyard with white ceramic walls, broad windows and a clear blue sky. A wide flat matte pale-gray floor. A low opaque dark rectangular cargo crate stands in the central midground. The crate is solid and opaque, with open ground beside and behind it. The player holds a compact black rifle in two gloved hands. Its primary fire is direct hitscan without explosions. The tracked opponent is a single helmeted person wearing a red jacket, dark trousers and black boots. The opponent remains visible and stationary, facing the player. There is only this one opponent in the entire scene. No additional opponent enters."
+      },
+      {
+        "start": 0.85,
+        "end": 1.65,
+        "text": "The opponent remains visible and stationary, facing the player. The opponent is hit and remains alive. There is only this one opponent in the entire scene. No additional opponent enters.",
+        "full": "A minimalist futuristic laboratory courtyard with white ceramic walls, broad windows and a clear blue sky. A wide flat matte pale-gray floor. A low opaque dark rectangular cargo crate stands in the central midground. The crate is solid and opaque, with open ground beside and behind it. The player holds a compact black rifle in two gloved hands. Its primary fire is direct hitscan without explosions. The tracked opponent is a single helmeted person wearing a red jacket, dark trousers and black boots. The opponent remains visible and stationary, facing the player. The opponent is hit and remains alive. There is only this one opponent in the entire scene. No additional opponent enters."
+      },
+      {
+        "start": 1.65,
+        "end": 2.45,
+        "text": "The opponent remains visible and stationary, facing the player. The opponent is hit and remains alive. There is only this one opponent in the entire scene. No additional opponent enters.",
+        "full": "A minimalist futuristic laboratory courtyard with white ceramic walls, broad windows and a clear blue sky. A wide flat matte pale-gray floor. A low opaque dark rectangular cargo crate stands in the central midground. The crate is solid and opaque, with open ground beside and behind it. The player holds a compact black rifle in two gloved hands. Its primary fire is direct hitscan without explosions. The tracked opponent is a single helmeted person wearing a red jacket, dark trousers and black boots. The opponent remains visible and stationary, facing the player. The opponent is hit and remains alive. There is only this one opponent in the entire scene. No additional opponent enters."
+      },
+      {
+        "start": 2.45,
+        "end": 3.25,
+        "text": "The opponent remains visible and stationary, facing the player. There is only this one opponent in the entire scene. No additional opponent enters.",
+        "full": "A minimalist futuristic laboratory courtyard with white ceramic walls, broad windows and a clear blue sky. A wide flat matte pale-gray floor. A low opaque dark rectangular cargo crate stands in the central midground. The crate is solid and opaque, with open ground beside and behind it. The player holds a compact black rifle in two gloved hands. Its primary fire is direct hitscan without explosions. The tracked opponent is a single helmeted person wearing a red jacket, dark trousers and black boots. The opponent remains visible and stationary, facing the player. There is only this one opponent in the entire scene. No additional opponent enters."
+      },
+      {
+        "start": 3.25,
+        "end": 4.05,
+        "text": "The opponent remains visible and stationary, facing the player. There is only this one opponent in the entire scene. No additional opponent enters.",
+        "full": "A minimalist futuristic laboratory courtyard with white ceramic walls, broad windows and a clear blue sky. A wide flat matte pale-gray floor. A low opaque dark rectangular cargo crate stands in the central midground. The crate is solid and opaque, with open ground beside and behind it. The player holds a compact black rifle in two gloved hands. Its primary fire is direct hitscan without explosions. The tracked opponent is a single helmeted person wearing a red jacket, dark trousers and black boots. The opponent remains visible and stationary, facing the player. There is only this one opponent in the entire scene. No additional opponent enters."
+      },
+      {
+        "start": 4.05,
+        "end": 4.85,
+        "text": "The opponent remains visible and stationary, facing the player. There is only this one opponent in the entire scene. No additional opponent enters.",
+        "full": "A minimalist futuristic laboratory courtyard with white ceramic walls, broad windows and a clear blue sky. A wide flat matte pale-gray floor. A low opaque dark rectangular cargo crate stands in the central midground. The crate is solid and opaque, with open ground beside and behind it. The player holds a compact black rifle in two gloved hands. Its primary fire is direct hitscan without explosions. The tracked opponent is a single helmeted person wearing a red jacket, dark trousers and black boots. The opponent remains visible and stationary, facing the player. There is only this one opponent in the entire scene. No additional opponent enters."
+      }
+    ]
+  },
+  {
+    "id": "007",
+    "category": "state",
+    "title": "From Holding to Retreating",
+    "description": "Injury changes the opponent’s strategy and subsequent movement.",
+    "duration": 4.85,
+    "video": "media/007.mp4",
+    "poster": "media/007.jpg",
+    "global": "A minimalist futuristic laboratory courtyard with white ceramic walls, broad windows and a clear blue sky. A wide flat matte pale-gray floor. A low opaque dark rectangular cargo crate stands in the central midground. The crate is solid and opaque, with open ground beside and behind it. The player holds a compact black rifle in two gloved hands. Its primary fire is direct hitscan without explosions. The tracked opponent is a single helmeted person wearing a red jacket, dark trousers and black boots.",
+    "chunks": [
+      {
+        "start": 0.05,
+        "end": 0.85,
+        "text": "The opponent remains visible and stationary, facing the player. There is only this one opponent in the entire scene. No additional opponent enters.",
+        "full": "A minimalist futuristic laboratory courtyard with white ceramic walls, broad windows and a clear blue sky. A wide flat matte pale-gray floor. A low opaque dark rectangular cargo crate stands in the central midground. The crate is solid and opaque, with open ground beside and behind it. The player holds a compact black rifle in two gloved hands. Its primary fire is direct hitscan without explosions. The tracked opponent is a single helmeted person wearing a red jacket, dark trousers and black boots. The opponent remains visible and stationary, facing the player. There is only this one opponent in the entire scene. No additional opponent enters."
+      },
+      {
+        "start": 0.85,
+        "end": 1.65,
+        "text": "The opponent remains visible and stationary, facing the player. The opponent is hit and remains alive. There is only this one opponent in the entire scene. No additional opponent enters.",
+        "full": "A minimalist futuristic laboratory courtyard with white ceramic walls, broad windows and a clear blue sky. A wide flat matte pale-gray floor. A low opaque dark rectangular cargo crate stands in the central midground. The crate is solid and opaque, with open ground beside and behind it. The player holds a compact black rifle in two gloved hands. Its primary fire is direct hitscan without explosions. The tracked opponent is a single helmeted person wearing a red jacket, dark trousers and black boots. The opponent remains visible and stationary, facing the player. The opponent is hit and remains alive. There is only this one opponent in the entire scene. No additional opponent enters."
+      },
+      {
+        "start": 1.65,
+        "end": 2.45,
+        "text": "The opponent moves toward the player's left. The opponent is hit and remains alive. There is only this one opponent in the entire scene. No additional opponent enters.",
+        "full": "A minimalist futuristic laboratory courtyard with white ceramic walls, broad windows and a clear blue sky. A wide flat matte pale-gray floor. A low opaque dark rectangular cargo crate stands in the central midground. The crate is solid and opaque, with open ground beside and behind it. The player holds a compact black rifle in two gloved hands. Its primary fire is direct hitscan without explosions. The tracked opponent is a single helmeted person wearing a red jacket, dark trousers and black boots. The opponent moves toward the player's left. The opponent is hit and remains alive. There is only this one opponent in the entire scene. No additional opponent enters."
+      },
+      {
+        "start": 2.45,
+        "end": 3.25,
+        "text": "The same opponent bends their knees and lowers into a crouch behind the low crate. Their head and torso lower toward the top of the crate. They stay crouched behind it. The opponent is hit and remains alive. There is only this one opponent in the entire scene. No additional opponent enters.",
+        "full": "A minimalist futuristic laboratory courtyard with white ceramic walls, broad windows and a clear blue sky. A wide flat matte pale-gray floor. A low opaque dark rectangular cargo crate stands in the central midground. The crate is solid and opaque, with open ground beside and behind it. The player holds a compact black rifle in two gloved hands. Its primary fire is direct hitscan without explosions. The tracked opponent is a single helmeted person wearing a red jacket, dark trousers and black boots. The same opponent bends their knees and lowers into a crouch behind the low crate. Their head and torso lower toward the top of the crate. They stay crouched behind it. The opponent is hit and remains alive. There is only this one opponent in the entire scene. No additional opponent enters."
+      },
+      {
+        "start": 3.25,
+        "end": 4.05,
+        "text": "The same opponent remains crouched low behind the crate in the same place. There is only this one opponent in the entire scene. No additional opponent enters.",
+        "full": "A minimalist futuristic laboratory courtyard with white ceramic walls, broad windows and a clear blue sky. A wide flat matte pale-gray floor. A low opaque dark rectangular cargo crate stands in the central midground. The crate is solid and opaque, with open ground beside and behind it. The player holds a compact black rifle in two gloved hands. Its primary fire is direct hitscan without explosions. The tracked opponent is a single helmeted person wearing a red jacket, dark trousers and black boots. The same opponent remains crouched low behind the crate in the same place. There is only this one opponent in the entire scene. No additional opponent enters."
+      },
+      {
+        "start": 4.05,
+        "end": 4.85,
+        "text": "The same opponent remains crouched low behind the crate in the same place. There is only this one opponent in the entire scene. No additional opponent enters.",
+        "full": "A minimalist futuristic laboratory courtyard with white ceramic walls, broad windows and a clear blue sky. A wide flat matte pale-gray floor. A low opaque dark rectangular cargo crate stands in the central midground. The crate is solid and opaque, with open ground beside and behind it. The player holds a compact black rifle in two gloved hands. Its primary fire is direct hitscan without explosions. The tracked opponent is a single helmeted person wearing a red jacket, dark trousers and black boots. The same opponent remains crouched low behind the crate in the same place. There is only this one opponent in the entire scene. No additional opponent enters."
+      }
+    ]
+  },
+  {
+    "id": "001",
+    "category": "arena",
+    "title": "RIGen-Arena · 1",
+    "description": "Continuous combat in our closed-loop arena prototype.",
+    "duration": 15.0,
+    "video": "media/001.mp4",
+    "poster": "media/001.jpg",
+    "global": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image.",
+    "chunks": [
+      {
+        "start": 0.05,
+        "end": 0.85,
+        "text": "The opponent moves toward the player. The opponent fires multiple machine-gun bursts toward the player during this block. The opponent is not damaged during this block. The opponent remains in the player's view during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent moves toward the player. The opponent fires multiple machine-gun bursts toward the player during this block. The opponent is not damaged during this block. The opponent remains in the player's view during this block."
+      },
+      {
+        "start": 0.85,
+        "end": 1.65,
+        "text": "The opponent moves toward the player. The opponent fires the machine gun toward the player during this block. The opponent is hit during this block and remains alive. The opponent kills the player during this block. The opponent remains in the player's view during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent moves toward the player. The opponent fires the machine gun toward the player during this block. The opponent is hit during this block and remains alive. The opponent kills the player during this block. The opponent remains in the player's view during this block."
+      },
+      {
+        "start": 1.65,
+        "end": 2.45,
+        "text": "The opponent remains stationary. The opponent does not fire during this block. The opponent is not damaged during this block. The opponent remains in the player's view during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent remains stationary. The opponent does not fire during this block. The opponent is not damaged during this block. The opponent remains in the player's view during this block."
+      },
+      {
+        "start": 2.45,
+        "end": 3.25,
+        "text": "The opponent remains stationary. The opponent does not fire during this block. The opponent is not damaged during this block. The opponent remains in the player's view during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent remains stationary. The opponent does not fire during this block. The opponent is not damaged during this block. The opponent remains in the player's view during this block."
+      },
+      {
+        "start": 3.25,
+        "end": 4.05,
+        "text": "The opponent moves away from the player. The opponent does not fire during this block. The opponent is not damaged during this block. The opponent remains in the player's view during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent moves away from the player. The opponent does not fire during this block. The opponent is not damaged during this block. The opponent remains in the player's view during this block."
+      },
+      {
+        "start": 4.05,
+        "end": 4.85,
+        "text": "The opponent moves toward the player's left while moving away from the player. The opponent does not fire during this block. The opponent is not damaged during this block. The opponent remains in the player's view during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent moves toward the player's left while moving away from the player. The opponent does not fire during this block. The opponent is not damaged during this block. The opponent remains in the player's view during this block."
+      },
+      {
+        "start": 4.85,
+        "end": 5.65,
+        "text": "The opponent moves toward the player's left while moving away from the player. The opponent does not fire during this block. The opponent is hit during this block and remains alive. The opponent remains in the player's view during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent moves toward the player's left while moving away from the player. The opponent does not fire during this block. The opponent is hit during this block and remains alive. The opponent remains in the player's view during this block."
+      },
+      {
+        "start": 5.65,
+        "end": 6.45,
+        "text": "The opponent remains stationary. The opponent does not fire during this block. The opponent is killed during this block, is visibly knocked to the ground, and remains dead through the end of the block. The opponent remains in the player's view during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent remains stationary. The opponent does not fire during this block. The opponent is killed during this block, is visibly knocked to the ground, and remains dead through the end of the block. The opponent remains in the player's view during this block."
+      },
+      {
+        "start": 6.45,
+        "end": 7.25,
+        "text": "The opponent remains stationary. The opponent does not fire during this block. The opponent starts this block dead and remains dead throughout the block. The opponent remains in the player's view during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent remains stationary. The opponent does not fire during this block. The opponent starts this block dead and remains dead throughout the block. The opponent remains in the player's view during this block."
+      },
+      {
+        "start": 7.25,
+        "end": 8.05,
+        "text": "The opponent remains stationary. The opponent does not fire during this block. The opponent starts this block dead and remains dead throughout the block. The opponent remains in the player's view during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent remains stationary. The opponent does not fire during this block. The opponent starts this block dead and remains dead throughout the block. The opponent remains in the player's view during this block."
+      },
+      {
+        "start": 8.05,
+        "end": 8.85,
+        "text": "The opponent remains stationary. The opponent does not fire during this block. The opponent is not damaged during this block. The opponent respawns outside the player's view during this block. The opponent leaves the player's view and goes off-screen during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent remains stationary. The opponent does not fire during this block. The opponent is not damaged during this block. The opponent respawns outside the player's view during this block. The opponent leaves the player's view and goes off-screen during this block."
+      },
+      {
+        "start": 8.85,
+        "end": 9.65,
+        "text": "The opponent remains off-screen during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent remains off-screen during this block."
+      },
+      {
+        "start": 9.65,
+        "end": 10.45,
+        "text": "The opponent remains off-screen during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent remains off-screen during this block."
+      },
+      {
+        "start": 10.45,
+        "end": 11.25,
+        "text": "The opponent moves toward the player. The opponent does not fire during this block. The opponent is not damaged during this block. The opponent starts this block off-screen and re-enters the player's view during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent moves toward the player. The opponent does not fire during this block. The opponent is not damaged during this block. The opponent starts this block off-screen and re-enters the player's view during this block."
+      },
+      {
+        "start": 11.25,
+        "end": 12.05,
+        "text": "The opponent moves toward the player. The opponent fires the machine gun toward the player during this block. The opponent is not damaged during this block. The opponent remains in the player's view during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent moves toward the player. The opponent fires the machine gun toward the player during this block. The opponent is not damaged during this block. The opponent remains in the player's view during this block."
+      },
+      {
+        "start": 12.05,
+        "end": 12.85,
+        "text": "The opponent moves toward the player. The opponent fires the machine gun toward the player during this block. The opponent is hit during this block and remains alive. The opponent remains in the player's view during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent moves toward the player. The opponent fires the machine gun toward the player during this block. The opponent is hit during this block and remains alive. The opponent remains in the player's view during this block."
+      },
+      {
+        "start": 12.85,
+        "end": 13.65,
+        "text": "The opponent moves toward the player. The opponent fires the machine gun toward the player during this block. The opponent is hit during this block and remains alive. The opponent kills the player during this block. The opponent remains in the player's view during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent moves toward the player. The opponent fires the machine gun toward the player during this block. The opponent is hit during this block and remains alive. The opponent kills the player during this block. The opponent remains in the player's view during this block."
+      },
+      {
+        "start": 13.65,
+        "end": 14.45,
+        "text": "The opponent remains stationary. The opponent does not fire during this block. The opponent is not damaged during this block. The opponent remains in the player's view during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent remains stationary. The opponent does not fire during this block. The opponent is not damaged during this block. The opponent remains in the player's view during this block."
+      },
+      {
+        "start": 14.45,
+        "end": 15.0,
+        "text": "The opponent remains stationary. The opponent does not fire during this block. The opponent is not damaged during this block. The opponent remains in the player's view during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent remains stationary. The opponent does not fire during this block. The opponent is not damaged during this block. The opponent remains in the player's view during this block."
+      }
+    ]
+  },
+  {
+    "id": "arena_1332",
+    "category": "arena",
+    "title": "RIGen-Arena · 2",
+    "description": "Continuous combat in our closed-loop arena prototype.",
+    "duration": 15.0,
+    "video": "media/arena_1332.mp4",
+    "poster": "media/arena_1332.jpg",
+    "global": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image.",
+    "chunks": [
+      {
+        "start": 0.05,
+        "end": 0.85,
+        "text": "The opponent remains off-screen during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent remains off-screen during this block."
+      },
+      {
+        "start": 0.85,
+        "end": 1.65,
+        "text": "The opponent remains off-screen during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent remains off-screen during this block."
+      },
+      {
+        "start": 1.65,
+        "end": 2.45,
+        "text": "The opponent remains off-screen during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent remains off-screen during this block."
+      },
+      {
+        "start": 2.45,
+        "end": 3.25,
+        "text": "The opponent moves toward the player. The opponent fires the machine gun toward the player during this block. The opponent is not damaged during this block. The opponent starts this block off-screen and re-enters the player's view during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent moves toward the player. The opponent fires the machine gun toward the player during this block. The opponent is not damaged during this block. The opponent starts this block off-screen and re-enters the player's view during this block."
+      },
+      {
+        "start": 3.25,
+        "end": 4.05,
+        "text": "The opponent moves toward the player. The opponent fires the machine gun toward the player during this block. The opponent is not damaged during this block. The opponent remains in the player's view during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent moves toward the player. The opponent fires the machine gun toward the player during this block. The opponent is not damaged during this block. The opponent remains in the player's view during this block."
+      },
+      {
+        "start": 4.05,
+        "end": 4.85,
+        "text": "The opponent moves toward the player. The opponent fires the machine gun toward the player during this block. The opponent is hit during this block and remains alive. The opponent remains in the player's view during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent moves toward the player. The opponent fires the machine gun toward the player during this block. The opponent is hit during this block and remains alive. The opponent remains in the player's view during this block."
+      },
+      {
+        "start": 4.85,
+        "end": 5.65,
+        "text": "The opponent remains stationary. The opponent fires the machine gun toward the player during this block. The opponent is killed during this block, is visibly knocked to the ground, and remains dead through the end of the block. The opponent remains in the player's view during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent remains stationary. The opponent fires the machine gun toward the player during this block. The opponent is killed during this block, is visibly knocked to the ground, and remains dead through the end of the block. The opponent remains in the player's view during this block."
+      },
+      {
+        "start": 5.65,
+        "end": 6.45,
+        "text": "The opponent remains stationary. The opponent does not fire during this block. The opponent starts this block dead and remains dead throughout the block. The opponent leaves the player's view and goes off-screen during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent remains stationary. The opponent does not fire during this block. The opponent starts this block dead and remains dead throughout the block. The opponent leaves the player's view and goes off-screen during this block."
+      },
+      {
+        "start": 6.45,
+        "end": 7.25,
+        "text": "The opponent remains off-screen during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent remains off-screen during this block."
+      },
+      {
+        "start": 7.25,
+        "end": 8.05,
+        "text": "The opponent remains off-screen during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent remains off-screen during this block."
+      },
+      {
+        "start": 8.05,
+        "end": 8.85,
+        "text": "The opponent remains off-screen during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent remains off-screen during this block."
+      },
+      {
+        "start": 8.85,
+        "end": 9.65,
+        "text": "The opponent remains off-screen during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent remains off-screen during this block."
+      },
+      {
+        "start": 9.65,
+        "end": 10.45,
+        "text": "The opponent moves toward the player. The opponent does not fire during this block. The opponent is not damaged during this block. The opponent starts this block off-screen and re-enters the player's view during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent moves toward the player. The opponent does not fire during this block. The opponent is not damaged during this block. The opponent starts this block off-screen and re-enters the player's view during this block."
+      },
+      {
+        "start": 10.45,
+        "end": 11.25,
+        "text": "The opponent moves toward the player. The opponent fires the machine gun toward the player during this block. The opponent is not damaged during this block. The opponent kills the player during this block. The opponent remains in the player's view during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent moves toward the player. The opponent fires the machine gun toward the player during this block. The opponent is not damaged during this block. The opponent kills the player during this block. The opponent remains in the player's view during this block."
+      },
+      {
+        "start": 11.25,
+        "end": 12.05,
+        "text": "The opponent remains stationary. The opponent does not fire during this block. The opponent is not damaged during this block. The opponent remains in the player's view during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent remains stationary. The opponent does not fire during this block. The opponent is not damaged during this block. The opponent remains in the player's view during this block."
+      },
+      {
+        "start": 12.05,
+        "end": 12.85,
+        "text": "The opponent remains stationary. The opponent does not fire during this block. The opponent is not damaged during this block. The opponent remains in the player's view during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent remains stationary. The opponent does not fire during this block. The opponent is not damaged during this block. The opponent remains in the player's view during this block."
+      },
+      {
+        "start": 12.85,
+        "end": 13.65,
+        "text": "The opponent remains off-screen during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent remains off-screen during this block."
+      },
+      {
+        "start": 13.65,
+        "end": 14.45,
+        "text": "The opponent moves away from the player. The opponent does not fire during this block. The opponent is not damaged during this block. The opponent starts this block off-screen and re-enters the player's view during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent moves away from the player. The opponent does not fire during this block. The opponent is not damaged during this block. The opponent starts this block off-screen and re-enters the player's view during this block."
+      },
+      {
+        "start": 14.45,
+        "end": 15.0,
+        "text": "The opponent moves away from the player. The opponent does not fire during this block. The opponent is not damaged during this block. The opponent remains in the player's view during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent moves away from the player. The opponent does not fire during this block. The opponent is not damaged during this block. The opponent remains in the player's view during this block."
+      }
+    ]
+  },
+  {
+    "id": "arena_1696",
+    "category": "arena",
+    "title": "RIGen-Arena · 3",
+    "description": "Continuous combat in our closed-loop arena prototype.",
+    "duration": 15.0,
+    "video": "media/arena_1696.mp4",
+    "poster": "media/arena_1696.jpg",
+    "global": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image.",
+    "chunks": [
+      {
+        "start": 0.05,
+        "end": 0.85,
+        "text": "The opponent remains stationary. The opponent does not fire during this block. The opponent starts this block dead and remains dead throughout the block. The opponent leaves the player's view and goes off-screen during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent remains stationary. The opponent does not fire during this block. The opponent starts this block dead and remains dead throughout the block. The opponent leaves the player's view and goes off-screen during this block."
+      },
+      {
+        "start": 0.85,
+        "end": 1.65,
+        "text": "The opponent remains off-screen during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent remains off-screen during this block."
+      },
+      {
+        "start": 1.65,
+        "end": 2.45,
+        "text": "The opponent remains off-screen during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent remains off-screen during this block."
+      },
+      {
+        "start": 2.45,
+        "end": 3.25,
+        "text": "The opponent remains off-screen during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent remains off-screen during this block."
+      },
+      {
+        "start": 3.25,
+        "end": 4.05,
+        "text": "The opponent remains stationary. The opponent does not fire during this block. The opponent is not damaged during this block. The opponent starts this block off-screen and re-enters the player's view during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent remains stationary. The opponent does not fire during this block. The opponent is not damaged during this block. The opponent starts this block off-screen and re-enters the player's view during this block."
+      },
+      {
+        "start": 4.05,
+        "end": 4.85,
+        "text": "The opponent moves toward the player. The opponent fires the machine gun toward the player during this block. The opponent is not damaged during this block. The opponent kills the player during this block. The opponent remains in the player's view during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent moves toward the player. The opponent fires the machine gun toward the player during this block. The opponent is not damaged during this block. The opponent kills the player during this block. The opponent remains in the player's view during this block."
+      },
+      {
+        "start": 4.85,
+        "end": 5.65,
+        "text": "The opponent remains stationary. The opponent does not fire during this block. The opponent is not damaged during this block. The opponent remains in the player's view during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent remains stationary. The opponent does not fire during this block. The opponent is not damaged during this block. The opponent remains in the player's view during this block."
+      },
+      {
+        "start": 5.65,
+        "end": 6.45,
+        "text": "The opponent remains stationary. The opponent does not fire during this block. The opponent is not damaged during this block. The opponent remains in the player's view during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent remains stationary. The opponent does not fire during this block. The opponent is not damaged during this block. The opponent remains in the player's view during this block."
+      },
+      {
+        "start": 6.45,
+        "end": 7.25,
+        "text": "The opponent remains stationary. The opponent does not fire during this block. The opponent is not damaged during this block. The opponent leaves the player's view and goes off-screen during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent remains stationary. The opponent does not fire during this block. The opponent is not damaged during this block. The opponent leaves the player's view and goes off-screen during this block."
+      },
+      {
+        "start": 7.25,
+        "end": 8.05,
+        "text": "The opponent moves away from the player. The opponent does not fire during this block. The opponent is not damaged during this block. The opponent starts this block off-screen and re-enters the player's view during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent moves away from the player. The opponent does not fire during this block. The opponent is not damaged during this block. The opponent starts this block off-screen and re-enters the player's view during this block."
+      },
+      {
+        "start": 8.05,
+        "end": 8.85,
+        "text": "The opponent moves away from the player. The opponent does not fire during this block. The opponent is not damaged during this block. The opponent remains in the player's view during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent moves away from the player. The opponent does not fire during this block. The opponent is not damaged during this block. The opponent remains in the player's view during this block."
+      },
+      {
+        "start": 8.85,
+        "end": 9.65,
+        "text": "The opponent remains stationary. The opponent does not fire during this block. The opponent is not damaged during this block. The opponent remains in the player's view during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent remains stationary. The opponent does not fire during this block. The opponent is not damaged during this block. The opponent remains in the player's view during this block."
+      },
+      {
+        "start": 9.65,
+        "end": 10.45,
+        "text": "The opponent moves away from the player. The opponent does not fire during this block. The opponent is hit during this block and remains alive. The opponent remains in the player's view during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent moves away from the player. The opponent does not fire during this block. The opponent is hit during this block and remains alive. The opponent remains in the player's view during this block."
+      },
+      {
+        "start": 10.45,
+        "end": 11.25,
+        "text": "The opponent moves toward the player's left while approaching the player. The opponent does not fire during this block. The opponent is killed during this block, is visibly knocked to the ground, and remains dead through the end of the block. The opponent remains in the player's view during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent moves toward the player's left while approaching the player. The opponent does not fire during this block. The opponent is killed during this block, is visibly knocked to the ground, and remains dead through the end of the block. The opponent remains in the player's view during this block."
+      },
+      {
+        "start": 11.25,
+        "end": 12.05,
+        "text": "The opponent remains stationary. The opponent does not fire during this block. The opponent starts this block dead and remains dead throughout the block. The opponent remains in the player's view during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent remains stationary. The opponent does not fire during this block. The opponent starts this block dead and remains dead throughout the block. The opponent remains in the player's view during this block."
+      },
+      {
+        "start": 12.05,
+        "end": 12.85,
+        "text": "The opponent remains stationary. The opponent does not fire during this block. The opponent starts this block dead and remains dead throughout the block. The opponent remains in the player's view during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent remains stationary. The opponent does not fire during this block. The opponent starts this block dead and remains dead throughout the block. The opponent remains in the player's view during this block."
+      },
+      {
+        "start": 12.85,
+        "end": 13.65,
+        "text": "The opponent remains off-screen during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent remains off-screen during this block."
+      },
+      {
+        "start": 13.65,
+        "end": 14.45,
+        "text": "The opponent remains off-screen during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent remains off-screen during this block."
+      },
+      {
+        "start": 14.45,
+        "end": 15.0,
+        "text": "The opponent remains off-screen during this block.",
+        "full": "A compact symmetrical one-versus-one science-fiction arena built from polished white, charcoal, and dark metallic wall panels. Bright linear lights outline the floor and upper walkways, while a vivid nebula and a glowing planet fill the open-space sky. The arena is clean and uncluttered, with no weapon, ammunition, health, or armor pickups. The active weapon is Machine Gun. It is a fixed black-and-blue automatic weapon that fires direct rapid bullets. The tracked opponent has the appearance shown in the current reference image. The opponent remains off-screen during this block."
+      }
+    ]
+  }
+]

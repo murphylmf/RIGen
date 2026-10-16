@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>RIGen: Beyond Action Following with Reciprocal Interaction in Generative Gameplay</title>
+  <meta name="description" content="Reciprocal interaction in generative gameplay. Explore RIGen's video demonstrations, inspect chunk-wise guidance, and discover our FPS gameplay dataset.">
+  <meta name="theme-color" content="#f6f8f4">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23144435'/%3E%3Cpath d='M18 46V18h15c15 0 15 19 0 19H18m16 0 13 9' stroke='%23d2f7b7' stroke-width='6' fill='none'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css?v=20261013-dataset-scope-combos-v2">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#explore">Skip to demos</a>
+  <header class="site-header"><a href="#" class="wordmark" aria-label="RIGen home"><span class="brand-mark">R</span>RIGen<span class="brand-dot">.</span></a><nav aria-label="Main navigation"><a href="#overview">Film</a><a href="#explore">Explore</a><a href="#method">Method</a><a href="#dataset">Dataset</a></nav></header>
+  <main>
+    <section class="hero wrap" aria-labelledby="title">
+      <div class="eyebrow"><span class="status-dot"></span> RECIPROCAL INTERACTION · GENERATIVE GAMEPLAY</div>
+      <h1 id="title">RIGen: Beyond Action Following<br><span>with Reciprocal Interaction in Generative Gameplay</span></h1>
+      <div class="paper-meta" aria-label="Paper authors and affiliations">
+        <p class="paper-authors">Mengfei Li<sup>1,2</sup>, Yi Zhang<sup>2</sup><sup class="author-note-mark">*</sup>, Xingtong Ge<sup>1,2</sup>, Lunjie Zhu<sup>1,2</sup>, Fangyu Lin<sup>1,2</sup>, Peng Li<sup>1</sup>, Guanglu Song<sup>2</sup>, Yu Liu<sup>2</sup>, Wei Xue<sup>1</sup><sup class="author-note-mark">†</sup>, Wenhan Luo<sup>1</sup>, and Yike Guo<sup>1</sup></p>
+        <p class="paper-affiliations"><span><sup>1</sup> The Hong Kong University of Science and Technology</span><span><sup>2</sup> Vivix Group Limited</span></p>
+        <p class="paper-notes"><span><sup>*</sup> Project Lead</span><span><sup>†</sup> Corresponding Author</span></p>
+      </div>
+      <div class="hero-bottom"><p>Introducing <strong>RIGen</strong> — generative gameplay where player actions change the world, world events affect the player, and persistent state shapes what happens next.</p></div>
+      <div class="resource-links" id="resources">
+        <div class="resource-grid">
+          <a class="resource-link" href="https://arxiv.org/abs/2610.20811" target="_blank" rel="noreferrer" aria-label="Read the RIGen paper on arXiv"><svg class="resource-mark arxiv" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="14" fill="#b23b4b"/><text x="16" y="22" text-anchor="middle" font-family="Georgia,serif" font-size="19" font-weight="700" fill="#fff">a</text></svg><span class="resource-copy"><strong>ArXiv</strong><small>Paper</small></span></a>
+          <a class="resource-link" href="https://github.com/murphylmf/RIGen" target="_blank" rel="noreferrer" aria-label="Open the RIGen GitHub repository"><svg class="resource-mark github" viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 2.6a13.4 13.4 0 0 0-4.24 26.12c.67.12.92-.29.92-.65v-2.3c-3.75.81-4.54-1.8-4.54-1.8-.61-1.55-1.49-1.96-1.49-1.96-1.22-.84.09-.82.09-.82 1.35.1 2.06 1.39 2.06 1.39 1.2 2.06 3.16 1.47 3.93 1.12.12-.87.47-1.47.86-1.81-2.99-.34-6.14-1.5-6.14-6.67 0-1.47.52-2.68 1.38-3.63-.14-.34-.6-1.71.13-3.57 0 0 1.12-.36 3.68 1.38a12.8 12.8 0 0 1 6.7 0c2.56-1.74 3.68-1.38 3.68-1.38.73 1.86.27 3.23.13 3.57.86.95 1.38 2.16 1.38 3.63 0 5.18-3.15 6.32-6.15 6.66.48.42.91 1.24.91 2.5v3.71c0 .36.24.78.92.65A13.4 13.4 0 0 0 16 2.6Z"/></svg><span class="resource-copy"><strong>GitHub Code</strong><small>Repository</small></span></a>
+          <a class="resource-link" href="https://github.com/murphylmf/RIGen-Xonotic-Data-Engine" target="_blank" rel="noreferrer" aria-label="Open the RIGen Xonotic data engine repository"><svg class="resource-mark github" viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 2.6a13.4 13.4 0 0 0-4.24 26.12c.67.12.92-.29.92-.65v-2.3c-3.75.81-4.54-1.8-4.54-1.8-.61-1.55-1.49-1.96-1.49-1.96-1.22-.84.09-.82.09-.82 1.35.1 2.06 1.39 2.06 1.39 1.2 2.06 3.16 1.47 3.93 1.12.12-.87.47-1.47.86-1.81-2.99-.34-6.14-1.5-6.14-6.67 0-1.47.52-2.68 1.38-3.63-.14-.34-.6-1.71.13-3.57 0 0 1.12-.36 3.68 1.38a12.8 12.8 0 0 1 6.7 0c2.56-1.74 3.68-1.38 3.68-1.38.73 1.86.27 3.23.13 3.57.86.95 1.38 2.16 1.38 3.63 0 5.18-3.15 6.32-6.15 6.66.48.42.91 1.24.91 2.5v3.71c0 .36.24.78.92.65A13.4 13.4 0 0 0 16 2.6Z"/></svg><span class="resource-copy"><strong>Data Engine</strong><small>GitHub</small></span></a>
+          <a class="resource-link" href="https://huggingface.co/Murphyyyy/RIGen" target="_blank" rel="noreferrer" aria-label="Open the RIGen model on Hugging Face"><svg class="resource-mark hf" viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="2" width="28" height="28" rx="8" fill="#f5b941"/><circle cx="11.2" cy="13.3" r="2.1" fill="#172c25"/><circle cx="20.8" cy="13.3" r="2.1" fill="#172c25"/><path d="M9 20c2.2 2.3 4.4 3.4 7 3.4s4.8-1.1 7-3.4" fill="none" stroke="#172c25" stroke-width="2" stroke-linecap="round"/></svg><span class="resource-copy"><strong>RIGen</strong><small>HF Model</small></span></a>
+          <a class="resource-link" href="https://huggingface.co/datasets/Murphyyyy/RIGen-Xonotic-Dataset/tree/main" target="_blank" rel="noreferrer" aria-label="Open the RIGen Xonotic dataset on Hugging Face"><svg class="resource-mark hf" viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="2" width="28" height="28" rx="8" fill="#f5b941"/><circle cx="11.2" cy="13.3" r="2.1" fill="#172c25"/><circle cx="20.8" cy="13.3" r="2.1" fill="#172c25"/><path d="M9 20c2.2 2.3 4.4 3.4 7 3.4s4.8-1.1 7-3.4" fill="none" stroke="#172c25" stroke-width="2" stroke-linecap="round"/></svg><span class="resource-copy"><strong>HF Dataset</strong><small>Xonotic Dataset</small></span></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="overview" class="wrap film-section" aria-label="Full demonstration video">
+      <div class="film-shell"><video id="overview-video" controls playsinline preload="none" poster="media/overview.jpg" aria-label="Full RIGen demonstration"><source src="media/overview.mp4?v=20261013-no-cel-harbor" type="video/mp4"><source src="media/overview.webm?v=20261013-no-cel-harbor" type="video/webm"></video><button id="film-play" class="film-play" aria-label="Play full demonstration"><span class="play-disc" aria-hidden="true">▶</span><span>Watch the full film<small>01:06 · Sound on</small></span></button></div>
+      <div class="film-footer"><span><span class="tiny-dot"></span> FROM PLAYER CONTROL TO STATEFUL COMBAT</span><a href="#explore">Go inside each scene <span aria-hidden="true">↓</span></a></div>
+    </section>
+
+    <section id="explore" class="wrap section" aria-labelledby="explore-title">
+      <div class="section-heading"><div><div class="eyebrow">01 / INTERACTIVE GALLERY</div><h2 id="explore-title">See the play.<br><span>Read the guidance.</span></h2></div><p>Open a demo to explore its timeline. Select a chunk when available to see its guidance, or follow along as the video plays.</p></div>
+      <div class="gallery-toolbar"><div class="filters" role="group" aria-label="Filter demonstrations"><button class="filter active" data-filter="all" aria-pressed="true">All demos <span>12</span></button><button class="filter" data-filter="control" aria-pressed="false">Player control</button><button class="filter" data-filter="scenes" aria-pressed="false">Cross-scene interaction</button><button class="filter" data-filter="behavior" aria-pressed="false">Enemy behavior</button><button class="filter" data-filter="arena" aria-pressed="false">Arena</button><button class="filter" data-filter="state" aria-pressed="false">Combat & state</button></div></div>
+      <p id="gallery-status" class="sr-only" role="status" aria-live="polite"></p>
+      <div class="demo-grid" id="demo-grid"><p class="loading-text">Loading demonstrations…</p></div>
+    </section>
+
+    <section id="method" class="method-section section" aria-labelledby="method-title"><div class="wrap">
+      <div class="section-heading"><div><div class="eyebrow">02 / HOW IT WORKS</div><h2 id="method-title">More than a reaction.<br><span>An ongoing interaction.</span></h2></div><p>RIGen couples persistent game state, interaction reasoning, and audiovisual generation so every chunk can change what happens next.</p></div>
+      <div class="principles">
+        <article><span class="principle-number">01</span><h3>State & rules</h3><p>An event-driven state machine tracks health, life, ammunition, and strategy, then applies executable transition rules.</p><div class="principle-tag">Persistent consequences</div></article>
+        <article><span class="principle-number">02</span><h3>Interaction reasoning</h3><p>The InternVL3-8B interaction agent predicts events and behavior, while visual verification corrects the planned state before the next decision.</p><div class="principle-tag">Context-aware behavior</div></article>
+        <article><span class="principle-number">03</span><h3>Audiovisual generation</h3><p>Global scene context and chunk-local guidance condition an action-aware audiovisual generator for continued play.</p><div class="principle-tag">A world you can see & hear</div></article>
+      </div>
+      <details class="content-details method-details"><summary><span>Explore the method</span><span aria-hidden="true">+</span></summary><div class="content-details-body">
+        <div class="method-figure-stack">
+          <figure class="method-figure method-figure-overview"><img src="media/architecture.png" alt="Three coupled layers of RIGen: state and rules, interaction reasoning, and audiovisual generation." loading="lazy"><figcaption><strong>Three coupled layers.</strong> The state and rule engine keeps persistent variables, the interaction agent plans consequences and behavior, and the audiovisual generator realizes the next chunk.</figcaption></figure>
+          <figure class="method-figure"><img src="media/method_interaction_loop.png" alt="Closed-loop interaction: committed chunks, player actions, current and updated state, interaction agent, local guidance, and the audiovisual generator." loading="lazy"><figcaption><strong>Closed-loop interaction.</strong> The controller verifies committed observations before updating state and producing local guidance for the next chunk; visible outcomes take precedence over unverified predictions.</figcaption></figure>
+          <figure class="method-figure"><img src="media/method_generator_architecture.png" alt="Audiovisual generator and attention masks: global prompt, local guidance, player actions, coupled video and audio transformers, and chunk-wise attention." loading="lazy"><figcaption><strong>Audiovisual generation.</strong> Global context and chunk-local guidance condition both streams, while movement/camera controls and fire, jump, and reload enter the video stream with future actions masked.</figcaption></figure>
+        </div>
+        <div class="method-detail-grid">
+          <article class="detail-item"><span class="detail-code">M / 01</span><h3>Persistent state and rules</h3><p>The controller stores player and enemy health, life/death, ammunition, and opponent strategy. Firing consumes a round; hits change health; zero health triggers death; low-health enemies can switch to retreat.</p></article>
+          <article class="detail-item"><span class="detail-code">M / 02</span><h3>Predict, verify, correct</h3><p>At each chunk boundary, the agent reads recent video, controls, and state to propose events and behavior. Sampled frames verify the previous chunk, and observed outcomes correct the next state before predictions are committed.</p></article>
+          <article class="detail-item"><span class="detail-code">M / 03</span><h3>Prompt and action routing</h3><p>A global prompt preserves environment, weapon, and character identity. Local guidance describes behavior, visibility, damage, and death. The LTX-2.3 22B backbone couples video and audio streams.</p></article>
+          <article class="detail-item"><span class="detail-code">M / 04</span><h3>Causal generation and Arena</h3><p>Bidirectional adaptation is followed by autoregressive training with up to four clean history chunks, a first-frame anchor, and a character reference. Arena adds sustained-combat adaptation, distillation, and a causal video refiner.</p></article>
+        </div>
+        <p class="detail-note"><strong>Runtime loop</strong> Verify <span aria-hidden="true">→</span> correct <span aria-hidden="true">→</span> reason <span aria-hidden="true">→</span> guide <span aria-hidden="true">→</span> generate <span aria-hidden="true">→</span> verify.</p>
+      </div></details>
+    </div></section>
+
+    <section id="dataset" class="wrap section dataset-section" aria-labelledby="dataset-title">
+      <div class="section-heading"><div><div class="eyebrow">03 / THE DATA BEHIND THE PLAY</div><h2 id="dataset-title">From basic dynamics<br><span>to sustained combat.</span></h2></div><p>A controlled Xonotic capture pipeline aligns audiovisual gameplay with actions, camera geometry, game state, events, and chunk-level interaction guidance.</p></div>
+      <div class="dataset-banner"><div><span class="data-large">95,731</span><span class="data-caption">Accepted recordings</span></div><div><span class="data-large">176.8</span><span class="data-caption">Hours of encoded video</span></div><div class="dataset-scope"><span class="dataset-scope-label">DATASET COVERAGE</span><div class="dataset-scope-grid"><div><strong>28</strong><span>maps</span></div><div><strong>300+</strong><span>weapons</span></div><div><strong>42</strong><span>enemy refs</span></div></div></div></div>
+      <div class="dataset-route-intro"><div class="eyebrow"><span class="status-dot"></span> FOUR COMPLEMENTARY COLLECTION ROUTES</div><p>Each part targets a different level of gameplay learning, from local control dynamics to sustained combat.</p></div>
+      <div class="route-grid">
+        <article><span class="route-code">01 / LOCAL DYNAMICS</span><h3>Basic Dynamics</h3><p>Teaches how movement, camera, firing, and collisions change the immediate scene.</p></article>
+        <article><span class="route-code">02 / CONTROLLED COMBAT</span><h3>Interaction</h3><p>Connects player actions to opponent behavior, visibility, damage, and combat outcomes.</p></article>
+        <article><span class="route-code">03 / LONG HORIZON</span><h3>Interaction-Long</h3><p>Extends interactions across actor sequences and successive state-dependent outcomes.</p></article>
+        <article><span class="route-code">04 / SUSTAINED PLAY</span><h3>Arena</h3><p>Trains ongoing one-on-one combat with independent bot control and continued exchange.</p></article>
+      </div>
+      <div class="annotation-row"><span>ALIGNED DATA</span><ul><li>Video & audio</li><li>Player controls</li><li>Camera poses</li><li>Game state & events</li><li>Chunk guidance</li></ul></div>
+      <details class="content-details dataset-details"><summary><span>Open the dataset specification</span><span aria-hidden="true">+</span></summary><div class="content-details-body">
+        <div class="dataset-detail-grid">
+          <article class="detail-item"><span class="detail-code">D / 01</span><h3>Scenario coverage</h3><p>Scenarios vary maps, weapons, actor appearances, enemy presence, visibility, and outcome. Basic Dynamics spans 28 maps and nine weapon types; Interaction covers 42 model/skin/color enemy references across those weapons, yielding 378+ observed weapon–appearance combinations, with explicit no-fire, miss, nonlethal-hit, and kill branches.</p></article>
+          <article class="detail-item"><span class="detail-code">D / 02</span><h3>Media and semantic labels</h3><p>Each record carries first-person video, game audio, applied controls, engine-grounded camera poses, scene and character descriptions, and bound actor references. Gemini 3.1 Flash-Lite supplies map, weapon, and appearance labels.</p></article>
+          <article class="detail-item"><span class="detail-code">D / 03</span><h3>Interaction annotations</h3><p>Telemetry aligns opponent motion, visibility, attacks, damage, kills, and player death to each chunk. Short Interaction covers controlled outcomes; Interaction-Long preserves actor sequences; Arena captures ongoing independent bot behavior.</p></article>
+          <article class="detail-item"><span class="detail-code">D / 04</span><h3>Quality control and split</h3><p>Route geometry, camera behavior, media metadata, timing, prompt schedules, and reference bindings are validated. One hundred Interaction recordings are held out, with unseen maps and enemy appearances for evaluation.</p></article>
+        </div>
+      </div></details>
+    </section>
+
+    <footer class="wrap"><a href="#" class="wordmark">RIGen<span class="brand-dot">.</span></a><p>Beyond Action Following with Reciprocal Interaction<br>in Generative Gameplay</p><a href="#title" class="back-top">Back to top ↑</a></footer>
+  </main>
+
+  <dialog id="demo-dialog" aria-labelledby="dialog-title"><div class="dialog-top"><div><span id="dialog-category" class="eyebrow"></span><h2 id="dialog-title"></h2></div><button id="close-dialog" class="icon-button" aria-label="Close demo">×</button></div><div class="explorer-layout"><div class="player-column"><div class="explorer-player"><video id="clip-video" controls playsinline preload="metadata" aria-label="Selected demonstration"></video></div><div class="timeline-header"><span>CHUNK TIMELINE</span><span id="clip-time">0.00 / 0.00 s</span></div><div id="chunk-timeline" class="chunk-timeline" role="group" aria-label="Jump to a chunk"></div><div class="timeline-controls"><span id="chunk-count"></span><label><input id="loop-chunk" type="checkbox"> Loop selected chunk</label></div><p class="clip-description" id="clip-description"></p><p id="video-error" class="video-error" role="alert" hidden>Video could not load. Please close and reopen the demo.</p></div><aside class="guidance-column" aria-label="Generation guidance"><div class="guidance-top"><span class="live-dot"></span><span>LOCAL GUIDANCE</span><span id="guidance-range"></span></div><h3 id="guidance-title">Initial frame</h3><div id="guidance-text"></div><div class="chunk-nav"><button id="prev-chunk">← Previous</button><button id="next-chunk">Next →</button></div><details class="global-guidance"><summary><span class="global-icon" aria-hidden="true">◎</span> Global scene context <span aria-hidden="true">+</span></summary><p id="global-text"></p></details><details class="full-guidance"><summary>Full guidance <span aria-hidden="true">↗</span></summary><p id="full-text"></p></details></aside></div><div class="dialog-bottom"><span>Explore the guidance, chunk by chunk when available.</span><span>ESC to close</span></div></dialog>
+</body>
+</html>
