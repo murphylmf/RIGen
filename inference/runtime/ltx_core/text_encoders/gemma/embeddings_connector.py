@@ -1,0 +1,238 @@
+import torch
+
+from ltx_core.model.model_protocol import ModelConfigurator
+from ltx_core.model.transformer.attention import Attention
+from ltx_core.model.transformer.feed_forward import FeedForward
+from ltx_core.model.transformer.rope import (
+    LTXRopeType,
+    generate_freq_grid_np,
+    generate_freq_grid_pytorch,
+    precompute_freqs_cis,
+)
+from ltx_core.utils import rms_norm
+
+
+class _BasicTransformerBlock1D(torch.nn.Module):
+    def __init__(
+        self,
+        dim: int,
+        heads: int,
+        dim_head: int,
+        rope_type: LTXRopeType = LTXRopeType.INTERLEAVED,
+        apply_gated_attention: bool = False,
+    ):
+        super().__init__()
+
+        self.attn1 = Attention(
+            query_dim=dim,
+            heads=heads,
+            dim_head=dim_head,
+            rope_type=rope_type,
+            apply_gated_attention=apply_gated_attention,
+        )
+
+        self.ff = FeedForward(
+            dim,
+            dim_out=dim,
+        )
+
+    def forward(
+        self,
+        hidden_states: torch.Tensor,
+        attention_mask: torch.Tensor | None = None,
+        pe: torch.Tensor | None = None,
+    ) -> torch.Tensor:
+                                                                                                          
+
+                                                
+        norm_hidden_states = rms_norm(hidden_states)
+
+        norm_hidden_states = norm_hidden_states.squeeze(1)
+
+                           
+        attn_output = self.attn1(norm_hidden_states, mask=attention_mask, pe=pe)
+
+        hidden_states = attn_output + hidden_states
+        if hidden_states.ndim == 4:
+            hidden_states = hidden_states.squeeze(1)
+
+                                              
+        norm_hidden_states = rms_norm(hidden_states)
+
+                         
+        ff_output = self.ff(norm_hidden_states)
+
+        hidden_states = ff_output + hidden_states
+        if hidden_states.ndim == 4:
+            hidden_states = hidden_states.squeeze(1)
+
+        return hidden_states
+
+
+class Embeddings1DConnector(torch.nn.Module):
+    ''
+
+    _supports_gradient_checkpointing = True
+
+    def __init__(
+        self,
+        attention_head_dim: int = 128,
+        num_attention_heads: int = 30,
+        num_layers: int = 2,
+        positional_embedding_theta: float = 10000.0,
+        positional_embedding_max_pos: list[int] | None = None,
+        causal_temporal_positioning: bool = False,
+        num_learnable_registers: int | None = 128,
+        rope_type: LTXRopeType = LTXRopeType.INTERLEAVED,
+        double_precision_rope: bool = False,
+        apply_gated_attention: bool = False,
+    ):
+        super().__init__()
+        self.num_attention_heads = num_attention_heads
+        self.inner_dim = num_attention_heads * attention_head_dim
+        self.causal_temporal_positioning = causal_temporal_positioning
+        self.positional_embedding_theta = positional_embedding_theta
+        self.positional_embedding_max_pos = (
+            positional_embedding_max_pos if positional_embedding_max_pos is not None else [1]
+        )
+        self.rope_type = rope_type
+        self.double_precision_rope = double_precision_rope
+        self.transformer_1d_blocks = torch.nn.ModuleList(
+            [
+                _BasicTransformerBlock1D(
+                    dim=self.inner_dim,
+                    heads=num_attention_heads,
+                    dim_head=attention_head_dim,
+                    rope_type=rope_type,
+                    apply_gated_attention=apply_gated_attention,
+                )
+                for _ in range(num_layers)
+            ]
+        )
+
+        self.num_learnable_registers = num_learnable_registers
+        if self.num_learnable_registers:
+            self.learnable_registers = torch.nn.Parameter(
+                torch.rand(self.num_learnable_registers, self.inner_dim, dtype=torch.bfloat16) * 2.0 - 1.0
+            )
+
+    def _replace_padded_with_learnable_registers(
+        self, hidden_states: torch.Tensor, attention_mask: torch.Tensor
+    ) -> tuple[torch.Tensor, torch.Tensor]:
+        assert hidden_states.shape[1] % self.num_learnable_registers == 0, (
+            f"Hidden states sequence length {hidden_states.shape[1]} must be divisible by num_learnable_registers "
+            f"{self.num_learnable_registers}."
+        )
+
+        num_registers_duplications = hidden_states.shape[1] // self.num_learnable_registers
+        learnable_registers = torch.tile(self.learnable_registers, (num_registers_duplications, 1))
+        attention_mask_binary = (attention_mask.squeeze(1).squeeze(1).unsqueeze(-1) >= -9000.0).int()
+
+        non_zero_hidden_states = hidden_states[:, attention_mask_binary.squeeze().bool(), :]
+        non_zero_nums = non_zero_hidden_states.shape[1]
+        pad_length = hidden_states.shape[1] - non_zero_nums
+        adjusted_hidden_states = torch.nn.functional.pad(non_zero_hidden_states, pad=(0, 0, 0, pad_length), value=0)
+        flipped_mask = torch.flip(attention_mask_binary, dims=[1])
+        hidden_states = flipped_mask * adjusted_hidden_states + (1 - flipped_mask) * learnable_registers
+
+        attention_mask = torch.full_like(
+            attention_mask,
+            0.0,
+            dtype=attention_mask.dtype,
+            device=attention_mask.device,
+        )
+
+        return hidden_states, attention_mask
+
+    def forward(
+        self,
+        hidden_states: torch.Tensor,
+        attention_mask: torch.Tensor | None = None,
+    ) -> tuple[torch.Tensor, torch.Tensor]:
+        ''
+        if self.num_learnable_registers:
+            hidden_states, attention_mask = self._replace_padded_with_learnable_registers(hidden_states, attention_mask)
+
+        indices_grid = torch.arange(hidden_states.shape[1], dtype=torch.float32, device=hidden_states.device)
+        indices_grid = indices_grid[None, None, :]
+        freq_grid_generator = generate_freq_grid_np if self.double_precision_rope else generate_freq_grid_pytorch
+        freqs_cis = precompute_freqs_cis(
+            indices_grid=indices_grid,
+            dim=self.inner_dim,
+            out_dtype=hidden_states.dtype,
+            theta=self.positional_embedding_theta,
+            max_pos=self.positional_embedding_max_pos,
+            num_attention_heads=self.num_attention_heads,
+            rope_type=self.rope_type,
+            freq_grid_generator=freq_grid_generator,
+        )
+
+        for block in self.transformer_1d_blocks:
+            hidden_states = block(hidden_states, attention_mask=attention_mask, pe=freqs_cis)
+
+        hidden_states = rms_norm(hidden_states)
+
+        return hidden_states, attention_mask
+
+
+class Embeddings1DConnectorConfigurator(ModelConfigurator[Embeddings1DConnector]):
+    ''
+
+    @classmethod
+    def from_config(cls: type[Embeddings1DConnector], config: dict) -> Embeddings1DConnector:
+        transformer_config = config.get("transformer", {})
+        rope_type = LTXRopeType(transformer_config.get("rope_type", "interleaved"))
+        double_precision_rope = transformer_config.get("frequencies_precision", False) == "float64"
+        pe_max_pos = transformer_config.get("connector_positional_embedding_max_pos", [1])
+
+                                    
+        num_attention_heads = transformer_config.get("connector_num_attention_heads", 30)
+        attention_head_dim = transformer_config.get("connector_attention_head_dim", 128)
+        num_layers = transformer_config.get("connector_num_layers", 2)
+
+        connector = Embeddings1DConnector(
+            num_attention_heads=num_attention_heads,
+            attention_head_dim=attention_head_dim,
+            num_layers=num_layers,
+            positional_embedding_max_pos=pe_max_pos,
+            rope_type=rope_type,
+            double_precision_rope=double_precision_rope,
+            apply_gated_attention=transformer_config.get("connector_apply_gated_attention", False),
+        )
+        return connector
+
+
+class AudioEmbeddings1DConnectorConfigurator(ModelConfigurator[Embeddings1DConnector]):
+    ''
+
+    @classmethod
+    def from_config(cls: type[Embeddings1DConnector], config: dict) -> Embeddings1DConnector:
+        transformer_config = config.get("transformer", {})
+        rope_type = LTXRopeType(transformer_config.get("rope_type", "interleaved"))
+        double_precision_rope = transformer_config.get("frequencies_precision", False) == "float64"
+        pe_max_pos = transformer_config.get("connector_positional_embedding_max_pos", [1])
+
+                                                                                                      
+        num_attention_heads = transformer_config.get(
+            "audio_connector_num_attention_heads",
+            transformer_config.get("connector_num_attention_heads", 30),
+        )
+        attention_head_dim = transformer_config.get(
+            "audio_connector_attention_head_dim",
+            transformer_config.get("connector_attention_head_dim", 128),
+        )
+        num_layers = transformer_config.get(
+            "audio_connector_num_layers",
+            transformer_config.get("connector_num_layers", 2),
+        )
+
+        connector = Embeddings1DConnector(
+            num_attention_heads=num_attention_heads,
+            attention_head_dim=attention_head_dim,
+            num_layers=num_layers,
+            positional_embedding_max_pos=pe_max_pos,
+            rope_type=rope_type,
+            double_precision_rope=double_precision_rope,
+            apply_gated_attention=transformer_config.get("connector_apply_gated_attention", False),
+        )
+        return connector

@@ -1,0 +1,50 @@
+{
+  "calibration_id": "xonotic_stage2_v15_ar4k_kv_four_axis_832x480_20fps_v2",
+  "geometry": {
+    "width": 832,
+    "height": 480,
+    "fps": 20
+  },
+  "input_contract": {
+    "feature_order": [
+      "left_x",
+      "left_y",
+      "right_x",
+      "right_y",
+      "intercept"
+    ],
+    "joystick_axes": "normalized model inputs in [-1, 1] without per-dataset min-max normalization",
+    "output": "stationary-scene pixel displacement per generated 20 Hz frame; positive pixels point right/down",
+    "scope": "short three-frame projection from the latest causal frame to the scheduled fire frame"
+  },
+  "model": {
+    "type": "multivariate_linear",
+    "feature_order": [
+      "left_x",
+      "left_y",
+      "right_x",
+      "right_y",
+      "intercept"
+    ],
+    "dx_pixels_per_frame": [
+      -21.1842855,
+      12.6681815,
+      -373.4859197,
+      -164.878193,
+      -0.0528878
+    ],
+    "dy_pixels_per_frame": [
+      -7.0916052,
+      6.2718757,
+      -59.919553,
+      -290.2408505,
+      -0.0802041
+    ],
+    "calibrated_abs_range": {
+      "left_x": 0.1639983,
+      "left_y": 0.1619899,
+      "right_x": 0.0144991,
+      "right_y": 0.0048001
+    }
+  }
+}

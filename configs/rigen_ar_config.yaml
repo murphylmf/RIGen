@@ -1,0 +1,34 @@
+model:
+  model_path: weights/ltx-2.3-22b-dev.safetensors
+  text_encoder_path: weights/gemma-3-12b-it-qat-q4_0-unquantized
+  training_mode: full
+  attention_backend: flash_attention_4
+training_strategy:
+  name: ar_teacher
+  chunk_size: 2
+  execution_mode: full_mask
+  prompt_execution_mode: masked_schedule
+data:
+  sources:
+  - kind: crossfps_audio_action
+    path: .
+  online_encode:
+    enabled: true
+    tiling:
+      spatial_tile: 512
+      temporal_tile: 64
+      spatial_overlap: 64
+      temporal_overlap: 24
+  fixed_clip:
+    width: 832
+    height: 480
+    num_frames: 81
+    fps: 20.0
+    prompt_fields:
+    - prompt_text
+action_binding:
+  enabled: true
+  button_conditioning_mode: crossfps_legacy6
+validation:
+  prompts:
+  - a first-person shooter gameplay video

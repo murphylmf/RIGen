@@ -1,0 +1,9 @@
+.venv/
+.venv-vlm/
+__pycache__/
+*.pyc
+outputs/
+.model_downloads/
+weights/*.safetensors
+weights/gemma-3-12b-it-qat-q4_0-unquantized/
+data/xonotic_data

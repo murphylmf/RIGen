@@ -1,0 +1,9 @@
+{
+  "case_id": "test_case",
+  "initial_enemy_hp": 50,
+  "condition_image": "condition.png",
+  "manifest": "manifest.jsonl",
+  "verified_with": "RIGen semantic chain",
+  "rollout_blocks": 6,
+  "source_fps": 20
+}
