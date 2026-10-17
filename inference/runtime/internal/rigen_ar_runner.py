@@ -1214,8 +1214,6 @@ def main() -> None:
         raise ValueError("--condition-image-only requires --bootstrap-from-empty-history")
     if args.vlm_first_fire_block < 0:
         raise ValueError("--vlm-first-fire-block must be non-negative")
-    if not (args.vlm_independent_fire and args.vlm_single_enemy and args.bootstrap_from_empty_history):
-        raise ValueError('This isolated observation-refiner pilot requires independent planner, one enemy, empty history')
     if args.native_stage2_ar and (
         not args.bootstrap_from_empty_history
         or (args.guidance_mode != "conditional_only" and not args.corrected_ar_guidance)
