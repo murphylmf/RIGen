@@ -25,8 +25,8 @@
 </div>
 
 [![Project Page](https://img.shields.io/badge/Project-Page-orange.svg?logo=googlechrome&logoColor=white)](https://murphylmf.github.io/RIGen/)
-[![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-yellow.svg?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/Murphyyyy/RIGen-Xonotic-Dataset)
-[![RIGen Model](https://img.shields.io/badge/Hugging%20Face-RIGen-yellow.svg?logo=huggingface&logoColor=black)](https://huggingface.co/Murphyyyy/RIGen)
+[![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-yellow.svg?logo=huggingface&logoColor=FFD21E)](https://huggingface.co/datasets/Murphyyyy/RIGen-Xonotic-Dataset)
+[![RIGen Model](https://img.shields.io/badge/Hugging%20Face-RIGen-yellow.svg?logo=huggingface&logoColor=FFD21E)](https://huggingface.co/Murphyyyy/RIGen)
 [![Data Engine](https://img.shields.io/badge/Data%20Engine-GitHub-181717.svg?logo=github&logoColor=white)](https://github.com/murphylmf/RIGen-Xonotic-Data-Engine)
 
 ## Installation
